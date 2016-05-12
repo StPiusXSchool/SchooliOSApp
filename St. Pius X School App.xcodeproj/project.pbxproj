@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		A327607E1CE2201F00628B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A327607D1CE2201F00628B5E /* main.m */; };
 		A32760811CE2201F00628B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760801CE2201F00628B5E /* AppDelegate.m */; };
-		A32760841CE2201F00628B5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760831CE2201F00628B5E /* ViewController.m */; };
+		A32760841CE2201F00628B5E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760831CE2201F00628B5E /* HomeViewController.m */; };
 		A32760871CE2201F00628B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32760851CE2201F00628B5E /* Main.storyboard */; };
 		A32760891CE2201F00628B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32760881CE2201F00628B5E /* Assets.xcassets */; };
 		A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */; };
+		A32760951CE220E000628B5E /* VotingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760941CE220E000628B5E /* VotingViewController.m */; };
+		A32760981CE2214100628B5E /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760971CE2214100628B5E /* EventsTableViewController.m */; };
+		A327609B1CE221EF00628B5E /* MainContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327609A1CE221EF00628B5E /* MainContactsViewController.m */; };
+		A327609E1CE2226A00628B5E /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A327609D1CE2226A00628B5E /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		A327607D1CE2201F00628B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A327607F1CE2201F00628B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A32760801CE2201F00628B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A32760821CE2201F00628B5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A32760831CE2201F00628B5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A32760821CE2201F00628B5E /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A32760831CE2201F00628B5E /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A32760861CE2201F00628B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A32760881CE2201F00628B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A327608B1CE2201F00628B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A327608D1CE2201F00628B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32760931CE220E000628B5E /* VotingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingViewController.h; sourceTree = "<group>"; };
+		A32760941CE220E000628B5E /* VotingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingViewController.m; sourceTree = "<group>"; };
+		A32760961CE2214100628B5E /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
+		A32760971CE2214100628B5E /* EventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewController.m; sourceTree = "<group>"; };
+		A32760991CE221EF00628B5E /* MainContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContactsViewController.h; sourceTree = "<group>"; };
+		A327609A1CE221EF00628B5E /* MainContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContactsViewController.m; sourceTree = "<group>"; };
+		A327609C1CE2226A00628B5E /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A327609D1CE2226A00628B5E /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +72,16 @@
 			children = (
 				A327607F1CE2201F00628B5E /* AppDelegate.h */,
 				A32760801CE2201F00628B5E /* AppDelegate.m */,
-				A32760821CE2201F00628B5E /* ViewController.h */,
-				A32760831CE2201F00628B5E /* ViewController.m */,
+				A32760821CE2201F00628B5E /* HomeViewController.h */,
+				A32760831CE2201F00628B5E /* HomeViewController.m */,
+				A32760931CE220E000628B5E /* VotingViewController.h */,
+				A32760941CE220E000628B5E /* VotingViewController.m */,
+				A32760961CE2214100628B5E /* EventsTableViewController.h */,
+				A32760971CE2214100628B5E /* EventsTableViewController.m */,
+				A32760991CE221EF00628B5E /* MainContactsViewController.h */,
+				A327609A1CE221EF00628B5E /* MainContactsViewController.m */,
+				A327609C1CE2226A00628B5E /* AboutViewController.h */,
+				A327609D1CE2226A00628B5E /* AboutViewController.m */,
 				A32760851CE2201F00628B5E /* Main.storyboard */,
 				A32760881CE2201F00628B5E /* Assets.xcassets */,
 				A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */,
@@ -149,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32760841CE2201F00628B5E /* ViewController.m in Sources */,
+				A32760841CE2201F00628B5E /* HomeViewController.m in Sources */,
 				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,
 				A327607E1CE2201F00628B5E /* main.m in Sources */,
+				A327609E1CE2226A00628B5E /* AboutViewController.m in Sources */,
+				A32760981CE2214100628B5E /* EventsTableViewController.m in Sources */,
+				A327609B1CE221EF00628B5E /* MainContactsViewController.m in Sources */,
+				A32760951CE220E000628B5E /* VotingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

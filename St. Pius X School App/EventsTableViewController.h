@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EventsTableViewController.h
 //  St. Pius X School App
 //
 //  Created by Chris Bick on 5/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EventsTableViewController : UITableViewController
 
 @end
-

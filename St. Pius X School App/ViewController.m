@@ -6,13 +6,13 @@
 //  Copyright © 2016 St. Pius X School. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "ViewController.h"
 
-@interface HomeViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

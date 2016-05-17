@@ -12,6 +12,7 @@
 		27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */; };
 		27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */; };
 		27A5B40D1CE50CDD00AD9C51 /* VotingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */; };
+		27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */; };
 		A327607E1CE2201F00628B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A327607D1CE2201F00628B5E /* main.m */; };
 		A32760811CE2201F00628B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760801CE2201F00628B5E /* AppDelegate.m */; };
 		A32760871CE2201F00628B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32760851CE2201F00628B5E /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContactsViewController.m; sourceTree = "<group>"; };
 		27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingViewController.h; sourceTree = "<group>"; };
 		27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingViewController.m; sourceTree = "<group>"; };
+		27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A32760791CE2201F00628B5E /* St. Pius X School App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "St. Pius X School App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A327607D1CE2201F00628B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A327607F1CE2201F00628B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +57,7 @@
 		A32760701CE2201F00628B5E = {
 			isa = PBXGroup;
 			children = (
+				27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */,
 				A327607B1CE2201F00628B5E /* St. Pius X School App */,
 				A327607A1CE2201F00628B5E /* Products */,
 			);

@@ -98,6 +98,7 @@
 		A327607C1CE2201F00628B5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FF5A1CF1CE51D40001F99D5 /* IMG_0595.JPG */,
 				A327607D1CE2201F00628B5E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -162,6 +163,7 @@
 			files = (
 				A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */,
 				A32760891CE2201F00628B5E /* Assets.xcassets in Resources */,
+				3FF5A1D01CE51D40001F99D5 /* IMG_0595.JPG in Resources */,
 				A32760871CE2201F00628B5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

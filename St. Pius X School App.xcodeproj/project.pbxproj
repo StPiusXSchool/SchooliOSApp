@@ -13,6 +13,7 @@
 		27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */; };
 		27A5B40D1CE50CDD00AD9C51 /* VotingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */; };
 		27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */; };
+		3FF5A1D01CE51D40001F99D5 /* IMG_0595.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3FF5A1CF1CE51D40001F99D5 /* IMG_0595.JPG */; };
 		A327607E1CE2201F00628B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A327607D1CE2201F00628B5E /* main.m */; };
 		A32760811CE2201F00628B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760801CE2201F00628B5E /* AppDelegate.m */; };
 		A32760871CE2201F00628B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32760851CE2201F00628B5E /* Main.storyboard */; };

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="omh-8d-Uao">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="neg-V7-Qzu">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -214,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wEZ-tj-YLD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2881" y="256"/>
+            <point key="canvasLocation" x="2821" y="447"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="TbB-Bb-B0c">
@@ -263,21 +263,23 @@
                                 <state key="normal" title="Phone/E-Mail">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="PrincipalPhoneClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="uHs-O0-QpY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7y-ZV-dd1">
                                 <rect key="frame" x="488" y="100" width="92" height="30"/>
                                 <state key="normal" title="Phone/E-mail"/>
+                                <connections>
+                                    <action selector="AssistantPrincipalClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="iNY-VS-j7i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogo-GU-snj">
                                 <rect key="frame" x="488" y="130" width="92" height="30"/>
                                 <state key="normal" title="Phone/E-mail"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iE6-bS-XDJ">
-                                <rect key="frame" x="110" y="233" width="93" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Pre-K">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <action selector="OfficeClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="wMa-kI-Z4E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3gA-hU-I6j">
                                 <rect key="frame" x="110" y="284" width="93" height="30"/>
@@ -285,6 +287,10 @@
                                 <state key="normal" title="Kindergarden">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="KindergartenClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="bHJ-sT-3uX"/>
+                                    <segue destination="XfJ-Ci-rkN" kind="show" id="UDF-CZ-FV9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nq6-SC-EYX">
                                 <rect key="frame" x="110" y="332" width="93" height="31"/>
@@ -292,6 +298,10 @@
                                 <state key="normal" title="1">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="Firstclicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="tr1-9d-poG"/>
+                                    <action selector="clicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="Ami-Ks-Xeu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8U2-xQ-orx">
                                 <rect key="frame" x="110" y="385" width="93" height="30"/>
@@ -299,6 +309,10 @@
                                 <state key="normal" title="2">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="Clicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="CDO-kv-0Os"/>
+                                    <action selector="SecondClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="NUC-yg-l1E"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1v-jf-rNf">
                                 <rect key="frame" x="396" y="233" width="93" height="30"/>
@@ -309,6 +323,10 @@
                                 <state key="normal" title="3">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="ThirdClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="167-ig-fg2"/>
+                                    <action selector="clicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="CcC-ft-6iM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pA1-cv-W8s">
                                 <rect key="frame" x="396" y="284" width="93" height="30"/>
@@ -316,6 +334,9 @@
                                 <state key="normal" title="4">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="FourthClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="VPB-1s-448"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ph-UF-p5e">
                                 <rect key="frame" x="396" y="332" width="93" height="30"/>
@@ -324,6 +345,9 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="FifthClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="5iI-wt-3FQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eD-9m-fzE">
                                 <rect key="frame" x="396" y="385" width="93" height="30"/>
@@ -331,6 +355,9 @@
                                 <state key="normal" title="6-8">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SixthThroughEighthClicke:" destination="FLS-fA-POL" eventType="touchUpInside" id="Jw0-e1-ctE"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Principal-Mr. Dennis Mullahy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2G-fJ-XUC">
                                 <rect key="frame" x="20" y="76" width="218" height="21"/>
@@ -338,6 +365,17 @@
                                 <color key="textColor" red="0.38880497909634071" green="0.15610418979549612" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iE6-bS-XDJ">
+                                <rect key="frame" x="110" y="233" width="93" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Pre-K">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PreKClicked:" destination="FLS-fA-POL" eventType="touchUpInside" id="NRv-hL-bkM"/>
+                                    <segue destination="Xx2-AP-UVA" kind="show" id="Ceo-uy-KPs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -401,7 +439,137 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MDp-aT-kj7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="1148"/>
+            <point key="canvasLocation" x="2182" y="1661"/>
+        </scene>
+        <!--Kindergarten-->
+        <scene sceneID="vk0-ZG-zpn">
+            <objects>
+                <viewController id="XfJ-Ci-rkN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="g7D-ny-gGs"/>
+                        <viewControllerLayoutGuide type="bottom" id="TMJ-n7-yXb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pqt-eN-hP6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mrs. Rachel Lenart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afb-47-Nb9">
+                                <rect key="frame" x="20" y="83" width="162" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="Fuz-vx-pbh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mrs. Meg Smith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiX-nA-Ka4">
+                                <rect key="frame" x="20" y="141" width="136" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="2ZX-TF-etO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mrs. Jean John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXc-Ag-wQY">
+                                <rect key="frame" x="20" y="170" width="129" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="129" id="yUL-WA-4TM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mrs. Joanne Pavelec" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqr-Of-pIm">
+                                <rect key="frame" x="20" y="199" width="169" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="0uu-br-war"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mrs. Mary Garrison" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNc-L8-51g">
+                                <rect key="frame" x="20" y="228" width="162" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mrs. Sarah Edwards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FK3-uZ-bCS">
+                                <rect key="frame" x="20" y="112" width="162" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqh-Ce-fPY">
+                                <rect key="frame" x="483" y="79" width="92" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="92" id="pDg-X0-VqW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Phone/Email"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCG-2t-HN4">
+                                <rect key="frame" x="483" y="108" width="92" height="30"/>
+                                <state key="normal" title="Phone/Email"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbk-yj-L0k">
+                                <rect key="frame" x="483" y="137" width="92" height="30"/>
+                                <state key="normal" title="Phone/Email"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ty-Ff-9Eu">
+                                <rect key="frame" x="483" y="166" width="92" height="30"/>
+                                <state key="normal" title="Phone/Email"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2d-Ae-ZJ4">
+                                <rect key="frame" x="483" y="195" width="92" height="30"/>
+                                <state key="normal" title="Phone/Email"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAV-mr-tE7">
+                                <rect key="frame" x="483" y="224" width="92" height="30"/>
+                                <state key="normal" title="Phone/Email"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cqh-Ce-fPY" firstAttribute="top" secondItem="g7D-ny-gGs" secondAttribute="bottom" constant="15" id="25e-gL-3XX"/>
+                            <constraint firstItem="k2d-Ae-ZJ4" firstAttribute="trailing" secondItem="GAV-mr-tE7" secondAttribute="trailing" id="2YC-bq-lKG"/>
+                            <constraint firstItem="FK3-uZ-bCS" firstAttribute="leading" secondItem="LiX-nA-Ka4" secondAttribute="leading" id="3nE-xS-50H"/>
+                            <constraint firstItem="iqr-Of-pIm" firstAttribute="baseline" secondItem="k2d-Ae-ZJ4" secondAttribute="baseline" id="3xZ-bB-hhD"/>
+                            <constraint firstItem="Afb-47-Nb9" firstAttribute="leading" secondItem="FK3-uZ-bCS" secondAttribute="leading" id="79j-9D-g98"/>
+                            <constraint firstItem="iqr-Of-pIm" firstAttribute="leading" secondItem="LNc-L8-51g" secondAttribute="leading" id="7BA-Jb-K5v"/>
+                            <constraint firstItem="hCG-2t-HN4" firstAttribute="trailing" secondItem="Sbk-yj-L0k" secondAttribute="trailing" id="7OZ-A7-fw9"/>
+                            <constraint firstItem="Sbk-yj-L0k" firstAttribute="trailing" secondItem="3ty-Ff-9Eu" secondAttribute="trailing" id="83V-dY-0LJ"/>
+                            <constraint firstItem="FK3-uZ-bCS" firstAttribute="trailing" secondItem="LNc-L8-51g" secondAttribute="trailing" id="8Fm-0q-P30"/>
+                            <constraint firstItem="Afb-47-Nb9" firstAttribute="leading" secondItem="pqt-eN-hP6" secondAttribute="leadingMargin" id="CyG-VD-xbb"/>
+                            <constraint firstItem="3ty-Ff-9Eu" firstAttribute="trailing" secondItem="k2d-Ae-ZJ4" secondAttribute="trailing" id="FDY-QU-wpI"/>
+                            <constraint firstItem="Cqh-Ce-fPY" firstAttribute="leading" secondItem="hCG-2t-HN4" secondAttribute="leading" id="JN3-3o-bib"/>
+                            <constraint firstItem="zXc-Ag-wQY" firstAttribute="baseline" secondItem="3ty-Ff-9Eu" secondAttribute="baseline" id="JtS-e0-mGL"/>
+                            <constraint firstItem="Cqh-Ce-fPY" firstAttribute="trailing" secondItem="hCG-2t-HN4" secondAttribute="trailing" id="KDU-Qn-kch"/>
+                            <constraint firstItem="LiX-nA-Ka4" firstAttribute="leading" secondItem="zXc-Ag-wQY" secondAttribute="leading" id="KDn-S0-Aam"/>
+                            <constraint firstItem="LNc-L8-51g" firstAttribute="top" secondItem="iqr-Of-pIm" secondAttribute="bottom" constant="8" symbolic="YES" id="M0t-cy-L1A"/>
+                            <constraint firstItem="k2d-Ae-ZJ4" firstAttribute="leading" secondItem="GAV-mr-tE7" secondAttribute="leading" id="NVX-ge-nFm"/>
+                            <constraint firstItem="Afb-47-Nb9" firstAttribute="trailing" secondItem="FK3-uZ-bCS" secondAttribute="trailing" id="YkK-p8-05c"/>
+                            <constraint firstItem="3ty-Ff-9Eu" firstAttribute="leading" secondItem="k2d-Ae-ZJ4" secondAttribute="leading" id="eSW-1o-2ef"/>
+                            <constraint firstItem="Sbk-yj-L0k" firstAttribute="leading" secondItem="3ty-Ff-9Eu" secondAttribute="leading" id="fYF-ev-Uvo"/>
+                            <constraint firstItem="LiX-nA-Ka4" firstAttribute="baseline" secondItem="Sbk-yj-L0k" secondAttribute="baseline" id="hRc-xf-855"/>
+                            <constraint firstItem="zXc-Ag-wQY" firstAttribute="top" secondItem="LiX-nA-Ka4" secondAttribute="bottom" constant="8" symbolic="YES" id="n1X-tN-5Nz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cqh-Ce-fPY" secondAttribute="trailing" constant="5" id="r0h-EH-34X"/>
+                            <constraint firstItem="FK3-uZ-bCS" firstAttribute="top" secondItem="Afb-47-Nb9" secondAttribute="bottom" constant="8" symbolic="YES" id="snr-sl-R3e"/>
+                            <constraint firstItem="FK3-uZ-bCS" firstAttribute="baseline" secondItem="hCG-2t-HN4" secondAttribute="baseline" id="upY-1x-0iB"/>
+                            <constraint firstItem="zXc-Ag-wQY" firstAttribute="leading" secondItem="iqr-Of-pIm" secondAttribute="leading" id="v5C-OW-yIW"/>
+                            <constraint firstItem="hCG-2t-HN4" firstAttribute="leading" secondItem="Sbk-yj-L0k" secondAttribute="leading" id="vWx-Ss-WeT"/>
+                            <constraint firstItem="LNc-L8-51g" firstAttribute="baseline" secondItem="GAV-mr-tE7" secondAttribute="baseline" id="x7Y-Ah-xIG"/>
+                            <constraint firstItem="Afb-47-Nb9" firstAttribute="baseline" secondItem="Cqh-Ce-fPY" secondAttribute="baseline" id="xRX-TK-pMW"/>
+                            <constraint firstItem="iqr-Of-pIm" firstAttribute="top" secondItem="zXc-Ag-wQY" secondAttribute="bottom" constant="8" symbolic="YES" id="ybb-C7-xPL"/>
+                            <constraint firstItem="LiX-nA-Ka4" firstAttribute="top" secondItem="FK3-uZ-bCS" secondAttribute="bottom" constant="8" symbolic="YES" id="ze8-xz-zkq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kindergarten" id="gHD-L2-Y8o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUG-Xh-MYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2494" y="1213"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C2d-Rp-fiw">
@@ -439,5 +607,27 @@
             </objects>
             <point key="canvasLocation" x="2069" y="256"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="y08-2d-ebV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="omU-qw-o5Q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NXx-Mf-5pj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XfJ-Ci-rkN" kind="relationship" relationship="rootViewController" id="fat-do-dat"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gzi-M8-woz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2892" y="1148"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="UDF-CZ-FV9"/>
+        <segue reference="Ceo-uy-KPs"/>
+    </inferredMetricsTieBreakers>
 </document>

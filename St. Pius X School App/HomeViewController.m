@@ -18,6 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)CalendarButton:(id)sender {
+}
+- (IBAction)TCBYButton:(id)sender {
+}
+- (IBAction)ContactsButton:(id)sender {
+}
+- (IBAction)DirectionsButton:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

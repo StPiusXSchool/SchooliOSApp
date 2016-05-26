@@ -1405,7 +1405,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_0595.JPG" width="16" height="16"/>
+        <image name="IMG_0595.JPG" width="4032" height="3024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ocu-Jg-WG1"/>

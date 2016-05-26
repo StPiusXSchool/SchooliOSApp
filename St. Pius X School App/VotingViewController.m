@@ -23,6 +23,22 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)CookiesAndCClicked:(UIButton *)sender {
+}
+- (IBAction)CakeBClicked:(UIButton *)sender {
+}
+- (IBAction)ChocolateClicked:(UIButton *)sender {
+}
+- (IBAction)VanillaClicked:(UIButton *)sender {
+}
+- (IBAction)StrawberryClicked:(UIButton *)sender {
+}
+- (IBAction)CaramelClicked:(UIButton *)sender {
+}
+- (IBAction)TMarshmallowClicked:(UIButton *)sender {
+}
+- (IBAction)WCMousseClicked:(UIButton *)sender {
+}
 
 /*
 #pragma mark - Navigation

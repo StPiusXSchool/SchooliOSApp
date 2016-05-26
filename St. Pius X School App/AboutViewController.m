@@ -19,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    MKPointAnnotation *myAnnotation = [[MKPointAnnotation alloc] init];
+    myAnnotation.coordinate = CLLocationCoordinate2DMake(42.697233, -73.761485);
+    myAnnotation.title = @"St. Pius X School";
+    myAnnotation.subtitle = @"Loudonville, NY";
+    [self.MapView addAnnotation:myAnnotation];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -23,6 +23,28 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)PrincipalPhoneClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];
+}
+- (IBAction)AssistantPrincipalClicked:(id)sender { [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];
+}
+- (IBAction)OfficeClicked:(id)sender { [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];}
+- (IBAction)PreKClicked:(id)sender {
+}
+- (IBAction)KindergartenClicked:(id)sender {
+}
+- (IBAction)Firstclicked:(id)sender {
+}
+- (IBAction)SecondClicked:(id)sender {
+}
+- (IBAction)ThirdClicked:(id)sender {
+}
+- (IBAction)FourthClicked:(id)sender {
+}
+- (IBAction)FifthClicked:(id)sender {
+}
+- (IBAction)SixthThroughEighthClicked:(id)sender {
+}
 
 /*
 #pragma mark - Navigation

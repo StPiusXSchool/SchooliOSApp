@@ -7,8 +7,13 @@
 //
 
 #import "EventsTableViewController.h"
+#import "EventDetailsViewController.h"
+#import "MXLCalendarManager.h"
+#import "MBProgressHUD.h"
 
 @interface EventsTableViewController ()
+
+@property (nonatomic, retain) MXLCalendar* currentCalendar;
 
 @end
 
@@ -17,12 +22,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    MXLCalendarManager *calendarManager = [[MXLCalendarManager alloc] init];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
+    MBProgressHUD *loadingHUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    [loadingHUD setMode:MBProgressHUDModeIndeterminate];
+    [loadingHUD setLabelText:@"Loading Events..."];
+    
+    [calendarManager scanICSFileAtRemoteURL:[NSURL URLWithString:@"http://stpius-x.com/more-events?task=ical.download&id=17"]
+                      withCompletionHandler:^(MXLCalendar *calendar, NSError *error) {
+                          //currentCalendar = [[MXLCalendar alloc] init];
+                          self.currentCalendar = calendar;
+                          NSDateComponents *components = [[NSCalendar currentCalendar] components:NSCalendarUnitYear fromDate:[NSDate date]];
+                          NSInteger year = [components year];
+                          
+                          NSMutableArray* toBeRemoved = [NSMutableArray array];
+                          for (MXLCalendarEvent* event in self.currentCalendar.events) {
+                              components = [[NSCalendar currentCalendar] components:NSCalendarUnitYear fromDate:event.eventStartDate];
+                              NSInteger eventYear = [components year];
+                              if (year != eventYear)
+                                  [toBeRemoved addObject:event];
+                              
+                          }
+                          [self.currentCalendar.events removeObjectsInArray:toBeRemoved];
+                          
+                          dispatch_async(dispatch_get_main_queue(), ^{
+                              [loadingHUD hide:YES];
+                              [self.tableView reloadData];
+                          });
+                      }
+    ];
+    
+    
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -33,23 +64,50 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return (self.currentCalendar == nil ? 0 : self.currentCalendar.events.count);
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"EventCell" forIndexPath:indexPath];
     
-    // Configure the cell...
+    MXLCalendarEvent* event = self.currentCalendar.events[indexPath.row];
+    cell.textLabel.text = [event eventSummary];
     
+    // the date from ics file says UTC but it's really EST
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setTimeZone:[NSTimeZone timeZoneWithName:@"UTC"]];
+    [dateFormatter setDateFormat:@"MM/dd/yyyy"];
+    if (event.eventIsAllDay) {
+        NSTimeInterval start = [event.eventStartDate timeIntervalSince1970];
+        NSTimeInterval end = [event.eventEndDate timeIntervalSince1970];
+        // if start and end is one day don't show range
+        if (end - start == 60*60*24) {
+            NSString* startDate = [dateFormatter stringFromDate:event.eventStartDate];
+            cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", startDate];
+        } else {
+            NSString* startDate = [dateFormatter stringFromDate:event.eventStartDate];
+            NSString* endDate = [dateFormatter stringFromDate:event.eventEndDate];
+            cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ - %@", startDate, endDate];
+        }
+    } else {
+        NSString* date = [dateFormatter stringFromDate:event.eventStartDate];
+        [dateFormatter setDateFormat:@"hh:mm a"];
+        NSString* startTime = [dateFormatter stringFromDate:event.eventStartDate];
+        NSString* endTime = [dateFormatter stringFromDate:event.eventEndDate];
+    
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ %@ - %@", date, startTime, endTime];
+    }
+    
+    //[dateFormatter setDateFormat:@"hh:mm a"];
+    //cell.detailTextLabel.text = [dateFormatter stringFromDate:event.eventStartDate];
+                               
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -85,14 +143,17 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
+    EventDetailsViewController* vc = [segue destinationViewController];
+    
     // Pass the selected object to the new view controller.
+    NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+    MXLCalendarEvent* event = self.currentCalendar.events[selectedIndexPath.row];
+    vc.selectedEvent = event;
 }
-*/
 
 @end

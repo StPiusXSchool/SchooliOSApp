@@ -20,11 +20,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    // add pin to map and zoom in
     MKPointAnnotation *myAnnotation = [[MKPointAnnotation alloc] init];
     myAnnotation.coordinate = CLLocationCoordinate2DMake(42.697233, -73.761485);
     myAnnotation.title = @"St. Pius X School";
     myAnnotation.subtitle = @"Loudonville, NY";
+    
+    MKCoordinateRegion region;
+    MKCoordinateSpan span;
+    span.latitudeDelta = 0.01;
+    span.longitudeDelta = 0.01;
+    region.span = span;
+    region.center = myAnnotation.coordinate;
+    
     [self.MapView addAnnotation:myAnnotation];
+    [self.MapView setRegion:region animated:TRUE];
+    [self.MapView regionThatFits:region];
 }
 
 - (void)didReceiveMemoryWarning {

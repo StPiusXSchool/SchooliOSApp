@@ -28,7 +28,7 @@
     [loadingHUD setMode:MBProgressHUDModeIndeterminate];
     [loadingHUD setLabelText:@"Loading Events..."];
     
-    [calendarManager scanICSFileAtRemoteURL:[NSURL URLWithString:@"http://stpius-x.com/more-events?task=ical.download&id=17"]
+    [calendarManager scanICSFileAtRemoteURL:[NSURL URLWithString:@"http://www.stpius-x.com/more-events?task=ical.download&id=17"]
                       withCompletionHandler:^(MXLCalendar *calendar, NSError *error) {
                           //currentCalendar = [[MXLCalendar alloc] init];
                           self.currentCalendar = calendar;

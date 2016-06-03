@@ -7,6 +7,7 @@
 //
 
 #import "VotingViewController.h"
+#import "AWSSimpleDB.h"
 
 @interface VotingViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    /*
+    AWSStaticCredentialsProvider* provider = [AWSStaticCredentialsProvider alloc]initWithAccessKey:<#(nonnull NSString *)#> secretKey:<#(nonnull NSString *)#>
+    AWSSimpleDB *sdb = [AWSSimpleDB defaultSimpleDB];
+    [sdb]
+     */
 }
 
 - (void)didReceiveMemoryWarning {

@@ -23,12 +23,24 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)PrincipalPhoneClicked:(id)sender {
+- (IBAction)principalPhoneClicked:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];
 }
-- (IBAction)AssistantPrincipalClicked:(id)sender { [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];
+- (IBAction)principalEmailClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://2135554321"]];
 }
-- (IBAction)OfficeClicked:(id)sender { [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];}
+- (IBAction)assistantPrincipalPhoneClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];
+}
+- (IBAction)assistantPrincipalEmailClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://2135554321"]];
+}
+- (IBAction)officePhoneClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2135554321"]];
+}
+- (IBAction)officeEmailClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://2135554321"]];
+}
 - (IBAction)PreKClicked:(id)sender {
 }
 - (IBAction)KindergartenClicked:(id)sender {

@@ -1,436 +1,1032 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */; };
-		27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */; };
-		27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */; };
-		27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */; };
-		27A5B40D1CE50CDD00AD9C51 /* VotingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */; };
-		27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */; };
-		3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */; };
-		3FF5A1D01CE51D40001F99D5 /* (null) in Resources */ = {isa = PBXBuildFile; };
-		A3261FC61CFDFBD800EDCC7A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3261FC51CFDFBD800EDCC7A /* EventKit.framework */; };
-		A327607E1CE2201F00628B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A327607D1CE2201F00628B5E /* main.m */; };
-		A32760811CE2201F00628B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760801CE2201F00628B5E /* AppDelegate.m */; };
-		A32760871CE2201F00628B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32760851CE2201F00628B5E /* Main.storyboard */; };
-		A32760891CE2201F00628B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32760881CE2201F00628B5E /* Assets.xcassets */; };
-		A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */; };
-		A36555261CF8F775009C6FFE /* EventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36555251CF8F775009C6FFE /* EventDetailsViewController.m */; };
-		E135855632368660E62567E8 /* libPods-St. Pius X School App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B9558FF99C62B634EA5D00 /* libPods-St. Pius X School App.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
-		27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
-		27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsTableViewController.m; sourceTree = "<group>"; };
-		27A5B4031CE50CDD00AD9C51 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		27A5B4051CE50CDD00AD9C51 /* MainContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContactsViewController.h; sourceTree = "<group>"; };
-		27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContactsViewController.m; sourceTree = "<group>"; };
-		27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingViewController.h; sourceTree = "<group>"; };
-		27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingViewController.m; sourceTree = "<group>"; };
-		27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		39B9558FF99C62B634EA5D00 /* libPods-St. Pius X School App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-St. Pius X School App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0595.JPG; sourceTree = "<group>"; };
-		53F7BBA36B0CF1A1CCEA3E5B /* Pods-St. Pius X School App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.debug.xcconfig"; sourceTree = "<group>"; };
-		7F1006B2F54855CEC084FB7F /* Pods-St. Pius X School App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.release.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.release.xcconfig"; sourceTree = "<group>"; };
-		A3261FC51CFDFBD800EDCC7A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		A32760791CE2201F00628B5E /* St. Pius X School App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "St. Pius X School App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A327607D1CE2201F00628B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A327607F1CE2201F00628B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A32760801CE2201F00628B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A32760861CE2201F00628B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A32760881CE2201F00628B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A327608B1CE2201F00628B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A327608D1CE2201F00628B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A36555241CF8F775009C6FFE /* EventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailsViewController.h; sourceTree = "<group>"; };
-		A36555251CF8F775009C6FFE /* EventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailsViewController.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		A32760761CE2201F00628B5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3261FC61CFDFBD800EDCC7A /* EventKit.framework in Frameworks */,
-				27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */,
-				E135855632368660E62567E8 /* libPods-St. Pius X School App.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		98C639189F153B9874DAE220 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				53F7BBA36B0CF1A1CCEA3E5B /* Pods-St. Pius X School App.debug.xcconfig */,
-				7F1006B2F54855CEC084FB7F /* Pods-St. Pius X School App.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		A32760701CE2201F00628B5E = {
-			isa = PBXGroup;
-			children = (
-				27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */,
-				A327607B1CE2201F00628B5E /* St. Pius X School App */,
-				A327607A1CE2201F00628B5E /* Products */,
-				98C639189F153B9874DAE220 /* Pods */,
-				BD8EE95A55861DB8E4490C7B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		A327607A1CE2201F00628B5E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A32760791CE2201F00628B5E /* St. Pius X School App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A327607B1CE2201F00628B5E /* St. Pius X School App */ = {
-			isa = PBXGroup;
-			children = (
-				27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */,
-				27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */,
-				27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */,
-				27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */,
-				A36555241CF8F775009C6FFE /* EventDetailsViewController.h */,
-				A36555251CF8F775009C6FFE /* EventDetailsViewController.m */,
-				27A5B4031CE50CDD00AD9C51 /* HomeViewController.h */,
-				27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */,
-				27A5B4051CE50CDD00AD9C51 /* MainContactsViewController.h */,
-				27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */,
-				27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */,
-				27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */,
-				A327607F1CE2201F00628B5E /* AppDelegate.h */,
-				A32760801CE2201F00628B5E /* AppDelegate.m */,
-				A32760851CE2201F00628B5E /* Main.storyboard */,
-				A32760881CE2201F00628B5E /* Assets.xcassets */,
-				A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */,
-				A327608D1CE2201F00628B5E /* Info.plist */,
-				A327607C1CE2201F00628B5E /* Supporting Files */,
-			);
-			path = "St. Pius X School App";
-			sourceTree = "<group>";
-		};
-		A327607C1CE2201F00628B5E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */,
-				A327607D1CE2201F00628B5E /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BD8EE95A55861DB8E4490C7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A3261FC51CFDFBD800EDCC7A /* EventKit.framework */,
-				39B9558FF99C62B634EA5D00 /* libPods-St. Pius X School App.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		A32760781CE2201F00628B5E /* St. Pius X School App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A32760901CE2201F00628B5E /* Build configuration list for PBXNativeTarget "St. Pius X School App" */;
-			buildPhases = (
-				8359B14567C0BD5776543EA8 /* 📦 Check Pods Manifest.lock */,
-				A32760751CE2201F00628B5E /* Sources */,
-				A32760761CE2201F00628B5E /* Frameworks */,
-				A32760771CE2201F00628B5E /* Resources */,
-				59E6C1ACD99A8B1248213382 /* 📦 Embed Pods Frameworks */,
-				DC7211598BF41558987473BA /* 📦 Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "St. Pius X School App";
-			productName = "St. Pius X School App";
-			productReference = A32760791CE2201F00628B5E /* St. Pius X School App.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		A32760711CE2201F00628B5E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "St. Pius X School";
-				TargetAttributes = {
-					A32760781CE2201F00628B5E = {
-						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 877RWBPW55;
-					};
-				};
-			};
-			buildConfigurationList = A32760741CE2201F00628B5E /* Build configuration list for PBXProject "St. Pius X School App" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = A32760701CE2201F00628B5E;
-			productRefGroup = A327607A1CE2201F00628B5E /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				A32760781CE2201F00628B5E /* St. Pius X School App */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		A32760771CE2201F00628B5E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */,
-				A32760891CE2201F00628B5E /* Assets.xcassets in Resources */,
-				3FF5A1D01CE51D40001F99D5 /* (null) in Resources */,
-				3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */,
-				A32760871CE2201F00628B5E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		59E6C1ACD99A8B1248213382 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8359B14567C0BD5776543EA8 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DC7211598BF41558987473BA /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		A32760751CE2201F00628B5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */,
-				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,
-				27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */,
-				27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */,
-				27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */,
-				A327607E1CE2201F00628B5E /* main.m in Sources */,
-				A36555261CF8F775009C6FFE /* EventDetailsViewController.m in Sources */,
-				27A5B40D1CE50CDD00AD9C51 /* VotingViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A32760851CE2201F00628B5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A32760861CE2201F00628B5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A327608B1CE2201F00628B5E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		A327608E1CE2201F00628B5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A327608F1CE2201F00628B5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A32760911CE2201F00628B5E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53F7BBA36B0CF1A1CCEA3E5B /* Pods-St. Pius X School App.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "St. Pius X School App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.stpius-x.St--Pius-X-School-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-			};
-			name = Debug;
-		};
-		A32760921CE2201F00628B5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1006B2F54855CEC084FB7F /* Pods-St. Pius X School App.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "St. Pius X School App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.stpius-x.St--Pius-X-School-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		A32760741CE2201F00628B5E /* Build configuration list for PBXProject "St. Pius X School App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A327608E1CE2201F00628B5E /* Debug */,
-				A327608F1CE2201F00628B5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A32760901CE2201F00628B5E /* Build configuration list for PBXNativeTarget "St. Pius X School App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A32760911CE2201F00628B5E /* Debug */,
-				A32760921CE2201F00628B5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = A32760711CE2201F00628B5E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>14C8E1D0262365F7E9D1D97C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>21C31B9E03D90FD91893455E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-St. Pius X School App.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>27A5B3FF1CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AboutViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4001CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AboutViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4011CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>EventsTableViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4021CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>EventsTableViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4031CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>HomeViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4041CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>HomeViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4051CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MainContactsViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4061CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MainContactsViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4071CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>VotingViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4081CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>VotingViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27A5B4091CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27A5B4001CE50CDD00AD9C51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27A5B40A1CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27A5B4021CE50CDD00AD9C51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27A5B40B1CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27A5B4041CE50CDD00AD9C51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27A5B40C1CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27A5B4061CE50CDD00AD9C51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27A5B40D1CE50CDD00AD9C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27A5B4081CE50CDD00AD9C51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>27A5B40E1CEBB2EB00AD9C51</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MapKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/MapKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>27A5B40F1CEBB2EB00AD9C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>27A5B40E1CEBB2EB00AD9C51</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F65933C1CF79BDC00ED0EFB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.jpeg</string>
+			<key>path</key>
+			<string>IMG_0595.JPG</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F65933D1CF79BDC00ED0EFB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F65933C1CF79BDC00ED0EFB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3FF5A1D01CE51D40001F99D5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9F952926CF32F173C4BAE96E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C63214940909925C266FE4F5</string>
+				<string>B75D2F6DB76476ACC9AB549D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A3261FC51CFDFBD800EDCC7A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>EventKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/EventKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>A3261FC61CFDFBD800EDCC7A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A3261FC51CFDFBD800EDCC7A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A32760701CE2201F00628B5E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>27A5B40E1CEBB2EB00AD9C51</string>
+				<string>A327607B1CE2201F00628B5E</string>
+				<string>A327607A1CE2201F00628B5E</string>
+				<string>BD8EE95A55861DB8E4490C7B</string>
+				<string>9F952926CF32F173C4BAE96E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A32760711CE2201F00628B5E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0720</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>St. Pius X School</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>A32760781CE2201F00628B5E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.2.1</string>
+						<key>DevelopmentTeam</key>
+						<string>877RWBPW55</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>A32760741CE2201F00628B5E</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>A32760701CE2201F00628B5E</string>
+			<key>productRefGroup</key>
+			<string>A327607A1CE2201F00628B5E</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>A32760781CE2201F00628B5E</string>
+			</array>
+		</dict>
+		<key>A32760741CE2201F00628B5E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A327608E1CE2201F00628B5E</string>
+				<string>A327608F1CE2201F00628B5E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A32760751CE2201F00628B5E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>27A5B4091CE50CDD00AD9C51</string>
+				<string>A32760811CE2201F00628B5E</string>
+				<string>27A5B40A1CE50CDD00AD9C51</string>
+				<string>27A5B40B1CE50CDD00AD9C51</string>
+				<string>27A5B40C1CE50CDD00AD9C51</string>
+				<string>A327607E1CE2201F00628B5E</string>
+				<string>A36555261CF8F775009C6FFE</string>
+				<string>27A5B40D1CE50CDD00AD9C51</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A32760761CE2201F00628B5E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A3261FC61CFDFBD800EDCC7A</string>
+				<string>27A5B40F1CEBB2EB00AD9C51</string>
+				<string>A686C641E4AB87BD072C8826</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A32760771CE2201F00628B5E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A327608C1CE2201F00628B5E</string>
+				<string>A32760891CE2201F00628B5E</string>
+				<string>3FF5A1D01CE51D40001F99D5</string>
+				<string>3F65933D1CF79BDC00ED0EFB</string>
+				<string>A32760871CE2201F00628B5E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A32760781CE2201F00628B5E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A32760901CE2201F00628B5E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>14C8E1D0262365F7E9D1D97C</string>
+				<string>A32760751CE2201F00628B5E</string>
+				<string>A32760761CE2201F00628B5E</string>
+				<string>A32760771CE2201F00628B5E</string>
+				<string>FDC088E3FA0802AF113BEEDA</string>
+				<string>B8DFA8FBB6F0518322C19B5E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>St. Pius X School App</string>
+			<key>productName</key>
+			<string>St. Pius X School App</string>
+			<key>productReference</key>
+			<string>A32760791CE2201F00628B5E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>A32760791CE2201F00628B5E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>St. Pius X School App.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A327607A1CE2201F00628B5E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A32760791CE2201F00628B5E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327607B1CE2201F00628B5E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>27A5B3FF1CE50CDD00AD9C51</string>
+				<string>27A5B4001CE50CDD00AD9C51</string>
+				<string>27A5B4011CE50CDD00AD9C51</string>
+				<string>27A5B4021CE50CDD00AD9C51</string>
+				<string>A36555241CF8F775009C6FFE</string>
+				<string>A36555251CF8F775009C6FFE</string>
+				<string>27A5B4031CE50CDD00AD9C51</string>
+				<string>27A5B4041CE50CDD00AD9C51</string>
+				<string>27A5B4051CE50CDD00AD9C51</string>
+				<string>27A5B4061CE50CDD00AD9C51</string>
+				<string>27A5B4071CE50CDD00AD9C51</string>
+				<string>27A5B4081CE50CDD00AD9C51</string>
+				<string>A327607F1CE2201F00628B5E</string>
+				<string>A32760801CE2201F00628B5E</string>
+				<string>A32760851CE2201F00628B5E</string>
+				<string>A32760881CE2201F00628B5E</string>
+				<string>A327608A1CE2201F00628B5E</string>
+				<string>A327608D1CE2201F00628B5E</string>
+				<string>A327607C1CE2201F00628B5E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>St. Pius X School App</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327607C1CE2201F00628B5E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3F65933C1CF79BDC00ED0EFB</string>
+				<string>A327607D1CE2201F00628B5E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327607D1CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327607E1CE2201F00628B5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A327607D1CE2201F00628B5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A327607F1CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A32760801CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A32760811CE2201F00628B5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A32760801CE2201F00628B5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A32760851CE2201F00628B5E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A32760861CE2201F00628B5E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A32760861CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A32760871CE2201F00628B5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A32760851CE2201F00628B5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A32760881CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A32760891CE2201F00628B5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A32760881CE2201F00628B5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A327608A1CE2201F00628B5E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A327608B1CE2201F00628B5E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327608B1CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327608C1CE2201F00628B5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A327608A1CE2201F00628B5E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A327608D1CE2201F00628B5E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A327608E1CE2201F00628B5E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>A327608F1CE2201F00628B5E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A32760901CE2201F00628B5E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A32760911CE2201F00628B5E</string>
+				<string>A32760921CE2201F00628B5E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>A32760911CE2201F00628B5E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C63214940909925C266FE4F5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>St. Pius X School App/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>edu.stpius-x.St--Pius-X-School-App</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>A32760921CE2201F00628B5E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B75D2F6DB76476ACC9AB549D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>St. Pius X School App/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>edu.stpius-x.St--Pius-X-School-App</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A36555241CF8F775009C6FFE</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>EventDetailsViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A36555251CF8F775009C6FFE</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>EventDetailsViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A36555261CF8F775009C6FFE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A36555251CF8F775009C6FFE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A686C641E4AB87BD072C8826</key>
+		<dict>
+			<key>fileRef</key>
+			<string>21C31B9E03D90FD91893455E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B75D2F6DB76476ACC9AB549D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-St. Pius X School App.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B8DFA8FBB6F0518322C19B5E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>BD8EE95A55861DB8E4490C7B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A3261FC51CFDFBD800EDCC7A</string>
+				<string>21C31B9E03D90FD91893455E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C63214940909925C266FE4F5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-St. Pius X School App.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FDC088E3FA0802AF113BEEDA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>A32760711CE2201F00628B5E</string>
+</dict>
+</plist>

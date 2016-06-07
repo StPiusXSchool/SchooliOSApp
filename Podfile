@@ -6,5 +6,8 @@ platform :ios, '8.0'
 target 'St. Pius X School App' do
     pod 'MXLCalendarManager'
     pod 'MBProgressHUD'
+    pod 'AWSSimpleDB'
+    pod 'JBChartView'
+    pod 'iOS-Slide-Menu'
 end
 

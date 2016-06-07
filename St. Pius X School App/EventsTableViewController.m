@@ -10,6 +10,7 @@
 #import "EventDetailsViewController.h"
 #import "MXLCalendarManager.h"
 #import "MBProgressHUD.h"
+#import "UITableViewCell+DisclosureIndicatorColor.h"
 
 @interface EventsTableViewController ()
 
@@ -28,7 +29,7 @@
     [loadingHUD setMode:MBProgressHUDModeIndeterminate];
     [loadingHUD setLabelText:@"Loading Events..."];
     
-    [calendarManager scanICSFileAtRemoteURL:[NSURL URLWithString:@"http://stpius-x.com/more-events?task=ical.download&id=17"]
+    [calendarManager scanICSFileAtRemoteURL:[NSURL URLWithString:@"http://www.stpius-x.com/more-events?task=ical.download&id=17"]
                       withCompletionHandler:^(MXLCalendar *calendar, NSError *error) {
                           //currentCalendar = [[MXLCalendar alloc] init];
                           self.currentCalendar = calendar;
@@ -47,6 +48,8 @@
                           
                           dispatch_async(dispatch_get_main_queue(), ^{
                               [loadingHUD hide:YES];
+                              
+                              [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleSingleLine];
                               [self.tableView reloadData];
                           });
                       }
@@ -63,12 +66,10 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return (self.currentCalendar == nil ? 0 : self.currentCalendar.events.count);
 }
 
@@ -103,9 +104,8 @@
         cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ %@ - %@", date, startTime, endTime];
     }
     
-    //[dateFormatter setDateFormat:@"hh:mm a"];
-    //cell.detailTextLabel.text = [dateFormatter stringFromDate:event.eventStartDate];
-                               
+    cell.disclosureIndicatorColor = [UIColor colorWithRed:11.0/255.0 green:11.0/255.0 blue:100.0/255.0 alpha:1.0];
+    
     return cell;
 }
 

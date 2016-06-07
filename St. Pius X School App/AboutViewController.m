@@ -8,17 +8,21 @@
 
 #import "AboutViewController.h"
 #import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface AboutViewController ()
 @property (weak, nonatomic) IBOutlet MKMapView *MapView;
-
+@property (strong, nonatomic) CLLocationManager* locationManager;
 @end
 
 @implementation AboutViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // request permission for current location
+    self.locationManager = [[CLLocationManager alloc]init];
+    [self.locationManager requestWhenInUseAuthorization];
     
     // add pin to map and zoom in
     MKPointAnnotation *myAnnotation = [[MKPointAnnotation alloc] init];
@@ -41,7 +45,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}/*
+}
+
+- (IBAction)callOfficeClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://15184654539"]];
+}
+
+- (IBAction)directionsClicked:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.apple.com/?daddr=72+Upper+Loudon+Road+Loudonville,+New+York+12211"]];
+}
+
+/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -50,6 +64,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 
 @end

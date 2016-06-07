@@ -15,17 +15,29 @@
 		27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */; };
 		3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */; };
 		3FF5A1D01CE51D40001F99D5 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		A31960851D01FB0700BE6237 /* Contacts.csv in Resources */ = {isa = PBXBuildFile; fileRef = A31960841D01FB0700BE6237 /* Contacts.csv */; };
+		A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A319608A1D02001B00BE6237 /* GradeContactsViewController.m */; };
+		A31960901D02072B00BE6237 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A319608F1D02072B00BE6237 /* Contact.m */; };
+		A31960921D032D8A00BE6237 /* home_screen_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A31960911D032D8A00BE6237 /* home_screen_image.jpg */; };
+		A31960941D0333EA00BE6237 /* directions_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A31960931D0333EA00BE6237 /* directions_image.png */; };
+		A319609D1D04EC4C00BE6237 /* VotingResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */; };
 		A3261FC61CFDFBD800EDCC7A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3261FC51CFDFBD800EDCC7A /* EventKit.framework */; };
 		A327607E1CE2201F00628B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A327607D1CE2201F00628B5E /* main.m */; };
 		A32760811CE2201F00628B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A32760801CE2201F00628B5E /* AppDelegate.m */; };
 		A32760871CE2201F00628B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32760851CE2201F00628B5E /* Main.storyboard */; };
 		A32760891CE2201F00628B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32760881CE2201F00628B5E /* Assets.xcassets */; };
 		A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */; };
+		A340185C1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A340185B1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.m */; };
+		A340186C1D066A83001D49FE /* LeftSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A340186B1D066A83001D49FE /* LeftSideMenuViewController.m */; };
+		A340186F1D06F755001D49FE /* EasterEggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A340186E1D06F755001D49FE /* EasterEggViewController.m */; };
+		A34018721D06FC20001D49FE /* ham-menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A34018701D06FC20001D49FE /* ham-menu-button.png */; };
+		A34018731D06FC20001D49FE /* ham-menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34018711D06FC20001D49FE /* ham-menu-button@2x.png */; };
 		A36555261CF8F775009C6FFE /* EventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36555251CF8F775009C6FFE /* EventDetailsViewController.m */; };
-		E135855632368660E62567E8 /* libPods-St. Pius X School App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B9558FF99C62B634EA5D00 /* libPods-St. Pius X School App.a */; };
+		A686C641E4AB87BD072C8826 /* libPods-St. Pius X School App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C31B9E03D90FD91893455E /* libPods-St. Pius X School App.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21C31B9E03D90FD91893455E /* libPods-St. Pius X School App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-St. Pius X School App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
@@ -37,10 +49,16 @@
 		27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingViewController.h; sourceTree = "<group>"; };
 		27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingViewController.m; sourceTree = "<group>"; };
 		27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		39B9558FF99C62B634EA5D00 /* libPods-St. Pius X School App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-St. Pius X School App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0595.JPG; sourceTree = "<group>"; };
-		53F7BBA36B0CF1A1CCEA3E5B /* Pods-St. Pius X School App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.debug.xcconfig"; sourceTree = "<group>"; };
-		7F1006B2F54855CEC084FB7F /* Pods-St. Pius X School App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.release.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.release.xcconfig"; sourceTree = "<group>"; };
+		A31960841D01FB0700BE6237 /* Contacts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contacts.csv; sourceTree = "<group>"; };
+		A31960891D02001B00BE6237 /* GradeContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeContactsViewController.h; sourceTree = "<group>"; };
+		A319608A1D02001B00BE6237 /* GradeContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeContactsViewController.m; sourceTree = "<group>"; };
+		A319608E1D02072B00BE6237 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A319608F1D02072B00BE6237 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		A31960911D032D8A00BE6237 /* home_screen_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen_image.jpg; sourceTree = "<group>"; };
+		A31960931D0333EA00BE6237 /* directions_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directions_image.png; sourceTree = "<group>"; };
+		A319609B1D04EC4C00BE6237 /* VotingResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingResultsViewController.h; sourceTree = "<group>"; };
+		A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingResultsViewController.m; sourceTree = "<group>"; };
 		A3261FC51CFDFBD800EDCC7A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		A32760791CE2201F00628B5E /* St. Pius X School App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "St. Pius X School App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A327607D1CE2201F00628B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,8 +68,18 @@
 		A32760881CE2201F00628B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A327608B1CE2201F00628B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A327608D1CE2201F00628B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A340185A1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DisclosureIndicatorColor.h"; sourceTree = "<group>"; };
+		A340185B1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DisclosureIndicatorColor.m"; sourceTree = "<group>"; };
+		A340186A1D066A83001D49FE /* LeftSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideMenuViewController.h; sourceTree = "<group>"; };
+		A340186B1D066A83001D49FE /* LeftSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideMenuViewController.m; sourceTree = "<group>"; };
+		A340186D1D06F755001D49FE /* EasterEggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasterEggViewController.h; sourceTree = "<group>"; };
+		A340186E1D06F755001D49FE /* EasterEggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasterEggViewController.m; sourceTree = "<group>"; };
+		A34018701D06FC20001D49FE /* ham-menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ham-menu-button.png"; sourceTree = "<group>"; };
+		A34018711D06FC20001D49FE /* ham-menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ham-menu-button@2x.png"; sourceTree = "<group>"; };
 		A36555241CF8F775009C6FFE /* EventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailsViewController.h; sourceTree = "<group>"; };
 		A36555251CF8F775009C6FFE /* EventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailsViewController.m; sourceTree = "<group>"; };
+		B75D2F6DB76476ACC9AB549D /* Pods-St. Pius X School App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.release.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.release.xcconfig"; sourceTree = "<group>"; };
+		C63214940909925C266FE4F5 /* Pods-St. Pius X School App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,18 +89,18 @@
 			files = (
 				A3261FC61CFDFBD800EDCC7A /* EventKit.framework in Frameworks */,
 				27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */,
-				E135855632368660E62567E8 /* libPods-St. Pius X School App.a in Frameworks */,
+				A686C641E4AB87BD072C8826 /* libPods-St. Pius X School App.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		98C639189F153B9874DAE220 /* Pods */ = {
+		9F952926CF32F173C4BAE96E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53F7BBA36B0CF1A1CCEA3E5B /* Pods-St. Pius X School App.debug.xcconfig */,
-				7F1006B2F54855CEC084FB7F /* Pods-St. Pius X School App.release.xcconfig */,
+				C63214940909925C266FE4F5 /* Pods-St. Pius X School App.debug.xcconfig */,
+				B75D2F6DB76476ACC9AB549D /* Pods-St. Pius X School App.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -83,8 +111,8 @@
 				27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */,
 				A327607B1CE2201F00628B5E /* St. Pius X School App */,
 				A327607A1CE2201F00628B5E /* Products */,
-				98C639189F153B9874DAE220 /* Pods */,
 				BD8EE95A55861DB8E4490C7B /* Frameworks */,
+				9F952926CF32F173C4BAE96E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,20 +127,32 @@
 		A327607B1CE2201F00628B5E /* St. Pius X School App */ = {
 			isa = PBXGroup;
 			children = (
+				27A5B4031CE50CDD00AD9C51 /* HomeViewController.h */,
+				27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */,
 				27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */,
 				27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */,
 				27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */,
 				27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */,
 				A36555241CF8F775009C6FFE /* EventDetailsViewController.h */,
 				A36555251CF8F775009C6FFE /* EventDetailsViewController.m */,
-				27A5B4031CE50CDD00AD9C51 /* HomeViewController.h */,
-				27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */,
 				27A5B4051CE50CDD00AD9C51 /* MainContactsViewController.h */,
 				27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */,
+				A31960891D02001B00BE6237 /* GradeContactsViewController.h */,
+				A319608A1D02001B00BE6237 /* GradeContactsViewController.m */,
+				A319608E1D02072B00BE6237 /* Contact.h */,
+				A319608F1D02072B00BE6237 /* Contact.m */,
 				27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */,
 				27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */,
+				A319609B1D04EC4C00BE6237 /* VotingResultsViewController.h */,
+				A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */,
 				A327607F1CE2201F00628B5E /* AppDelegate.h */,
 				A32760801CE2201F00628B5E /* AppDelegate.m */,
+				A340186A1D066A83001D49FE /* LeftSideMenuViewController.h */,
+				A340186B1D066A83001D49FE /* LeftSideMenuViewController.m */,
+				A340186D1D06F755001D49FE /* EasterEggViewController.h */,
+				A340186E1D06F755001D49FE /* EasterEggViewController.m */,
+				A340185A1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.h */,
+				A340185B1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.m */,
 				A32760851CE2201F00628B5E /* Main.storyboard */,
 				A32760881CE2201F00628B5E /* Assets.xcassets */,
 				A327608A1CE2201F00628B5E /* LaunchScreen.storyboard */,
@@ -125,6 +165,11 @@
 		A327607C1CE2201F00628B5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A34018701D06FC20001D49FE /* ham-menu-button.png */,
+				A34018711D06FC20001D49FE /* ham-menu-button@2x.png */,
+				A31960931D0333EA00BE6237 /* directions_image.png */,
+				A31960911D032D8A00BE6237 /* home_screen_image.jpg */,
+				A31960841D01FB0700BE6237 /* Contacts.csv */,
 				3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */,
 				A327607D1CE2201F00628B5E /* main.m */,
 			);
@@ -135,7 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				A3261FC51CFDFBD800EDCC7A /* EventKit.framework */,
-				39B9558FF99C62B634EA5D00 /* libPods-St. Pius X School App.a */,
+				21C31B9E03D90FD91893455E /* libPods-St. Pius X School App.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,12 +192,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A32760901CE2201F00628B5E /* Build configuration list for PBXNativeTarget "St. Pius X School App" */;
 			buildPhases = (
-				8359B14567C0BD5776543EA8 /* 📦 Check Pods Manifest.lock */,
+				14C8E1D0262365F7E9D1D97C /* 📦 Check Pods Manifest.lock */,
 				A32760751CE2201F00628B5E /* Sources */,
 				A32760761CE2201F00628B5E /* Frameworks */,
 				A32760771CE2201F00628B5E /* Resources */,
-				59E6C1ACD99A8B1248213382 /* 📦 Embed Pods Frameworks */,
-				DC7211598BF41558987473BA /* 📦 Copy Pods Resources */,
+				FDC088E3FA0802AF113BEEDA /* 📦 Embed Pods Frameworks */,
+				B8DFA8FBB6F0518322C19B5E /* 📦 Copy Pods Resources */,
+				58B3013801D8FA477BB69ABF /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,6 +250,11 @@
 				A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */,
 				A32760891CE2201F00628B5E /* Assets.xcassets in Resources */,
 				3FF5A1D01CE51D40001F99D5 /* (null) in Resources */,
+				A31960921D032D8A00BE6237 /* home_screen_image.jpg in Resources */,
+				A34018721D06FC20001D49FE /* ham-menu-button.png in Resources */,
+				A31960851D01FB0700BE6237 /* Contacts.csv in Resources */,
+				A34018731D06FC20001D49FE /* ham-menu-button@2x.png in Resources */,
+				A31960941D0333EA00BE6237 /* directions_image.png in Resources */,
 				3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */,
 				A32760871CE2201F00628B5E /* Main.storyboard in Resources */,
 			);
@@ -212,22 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		59E6C1ACD99A8B1248213382 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8359B14567C0BD5776543EA8 /* 📦 Check Pods Manifest.lock */ = {
+		14C8E1D0262365F7E9D1D97C /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,7 +278,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		DC7211598BF41558987473BA /* 📦 Copy Pods Resources */ = {
+		58B3013801D8FA477BB69ABF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DFA8FBB6F0518322C19B5E /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,6 +308,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FDC088E3FA0802AF113BEEDA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,11 +332,17 @@
 			files = (
 				27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */,
 				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,
+				A319609D1D04EC4C00BE6237 /* VotingResultsViewController.m in Sources */,
+				A31960901D02072B00BE6237 /* Contact.m in Sources */,
+				A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */,
+				A340186C1D066A83001D49FE /* LeftSideMenuViewController.m in Sources */,
+				A340186F1D06F755001D49FE /* EasterEggViewController.m in Sources */,
 				27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */,
 				27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */,
 				27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */,
 				A327607E1CE2201F00628B5E /* main.m in Sources */,
 				A36555261CF8F775009C6FFE /* EventDetailsViewController.m in Sources */,
+				A340185C1D052F1F001D49FE /* UITableViewCell+DisclosureIndicatorColor.m in Sources */,
 				27A5B40D1CE50CDD00AD9C51 /* VotingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,31 +453,35 @@
 		};
 		A32760911CE2201F00628B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53F7BBA36B0CF1A1CCEA3E5B /* Pods-St. Pius X School App.debug.xcconfig */;
+			baseConfigurationReference = C63214940909925C266FE4F5 /* Pods-St. Pius X School App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "St. Pius X School App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stpius-x.St--Pius-X-School-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A32760921CE2201F00628B5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F1006B2F54855CEC084FB7F /* Pods-St. Pius X School App.release.xcconfig */;
+			baseConfigurationReference = B75D2F6DB76476ACC9AB549D /* Pods-St. Pius X School App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "St. Pius X School App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.stpius-x.St--Pius-X-School-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

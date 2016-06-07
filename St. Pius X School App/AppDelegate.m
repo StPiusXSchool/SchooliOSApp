@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "AWSSimpleDB.h"
+#import "LeftSideMenuViewController.h"
+#import "SlideNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    AWSStaticCredentialsProvider* credentialsProvider = [[AWSStaticCredentialsProvider alloc]initWithAccessKey:@"" secretKey:@""];
+    AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSEast1
+                                                                         credentialsProvider:credentialsProvider];
+    [AWSServiceManager defaultServiceManager].defaultServiceConfiguration = configuration;
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
+                                                              bundle: nil];
+    LeftSideMenuViewController *leftMenu = [mainStoryboard instantiateViewControllerWithIdentifier:@"LeftSlideMenuViewController"];
+    [SlideNavigationController sharedInstance].leftMenu = leftMenu;
+    
+    UIButton *button  = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
+    [button setImage:[UIImage imageNamed:@"ham-menu-button"] forState:UIControlStateNormal];
+    [button addTarget:[SlideNavigationController sharedInstance] action:@selector(toggleLeftMenu) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    [SlideNavigationController sharedInstance].leftBarButtonItem = leftBarButtonItem;
+    
+    
+    
     return YES;
 }
 

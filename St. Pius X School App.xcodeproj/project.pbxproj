@@ -18,7 +18,7 @@
 		A31960851D01FB0700BE6237 /* Contacts.csv in Resources */ = {isa = PBXBuildFile; fileRef = A31960841D01FB0700BE6237 /* Contacts.csv */; };
 		A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A319608A1D02001B00BE6237 /* GradeContactsViewController.m */; };
 		A31960901D02072B00BE6237 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A319608F1D02072B00BE6237 /* Contact.m */; };
-		A31960921D032D8A00BE6237 /* home_screen_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A31960911D032D8A00BE6237 /* home_screen_image.jpg */; };
+		A31960921D032D8A00BE6237 /* home_screen_image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A31960911D032D8A00BE6237 /* home_screen_image2.jpg */; };
 		A31960941D0333EA00BE6237 /* directions_image.png in Resources */ = {isa = PBXBuildFile; fileRef = A31960931D0333EA00BE6237 /* directions_image.png */; };
 		A319609D1D04EC4C00BE6237 /* VotingResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */; };
 		A3261FC61CFDFBD800EDCC7A /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3261FC51CFDFBD800EDCC7A /* EventKit.framework */; };
@@ -32,6 +32,8 @@
 		A340186F1D06F755001D49FE /* EasterEggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A340186E1D06F755001D49FE /* EasterEggViewController.m */; };
 		A34018721D06FC20001D49FE /* ham-menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A34018701D06FC20001D49FE /* ham-menu-button.png */; };
 		A34018731D06FC20001D49FE /* ham-menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A34018711D06FC20001D49FE /* ham-menu-button@2x.png */; };
+		A34018751D075FB0001D49FE /* home_screen_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A34018741D075FB0001D49FE /* home_screen_image.jpg */; };
+		A34018771D076079001D49FE /* easter_egg_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A34018761D076079001D49FE /* easter_egg_photo.jpg */; };
 		A36555261CF8F775009C6FFE /* EventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A36555251CF8F775009C6FFE /* EventDetailsViewController.m */; };
 		A686C641E4AB87BD072C8826 /* libPods-St. Pius X School App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C31B9E03D90FD91893455E /* libPods-St. Pius X School App.a */; };
 /* End PBXBuildFile section */
@@ -55,7 +57,7 @@
 		A319608A1D02001B00BE6237 /* GradeContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeContactsViewController.m; sourceTree = "<group>"; };
 		A319608E1D02072B00BE6237 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		A319608F1D02072B00BE6237 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
-		A31960911D032D8A00BE6237 /* home_screen_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen_image.jpg; sourceTree = "<group>"; };
+		A31960911D032D8A00BE6237 /* home_screen_image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen_image2.jpg; sourceTree = "<group>"; };
 		A31960931D0333EA00BE6237 /* directions_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = directions_image.png; sourceTree = "<group>"; };
 		A319609B1D04EC4C00BE6237 /* VotingResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingResultsViewController.h; sourceTree = "<group>"; };
 		A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingResultsViewController.m; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		A340186E1D06F755001D49FE /* EasterEggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasterEggViewController.m; sourceTree = "<group>"; };
 		A34018701D06FC20001D49FE /* ham-menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ham-menu-button.png"; sourceTree = "<group>"; };
 		A34018711D06FC20001D49FE /* ham-menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ham-menu-button@2x.png"; sourceTree = "<group>"; };
+		A34018741D075FB0001D49FE /* home_screen_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen_image.jpg; sourceTree = "<group>"; };
+		A34018761D076079001D49FE /* easter_egg_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = easter_egg_photo.jpg; sourceTree = "<group>"; };
 		A36555241CF8F775009C6FFE /* EventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailsViewController.h; sourceTree = "<group>"; };
 		A36555251CF8F775009C6FFE /* EventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailsViewController.m; sourceTree = "<group>"; };
 		B75D2F6DB76476ACC9AB549D /* Pods-St. Pius X School App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-St. Pius X School App.release.xcconfig"; path = "Pods/Target Support Files/Pods-St. Pius X School App/Pods-St. Pius X School App.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,10 +169,12 @@
 		A327607C1CE2201F00628B5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A34018761D076079001D49FE /* easter_egg_photo.jpg */,
+				A34018741D075FB0001D49FE /* home_screen_image.jpg */,
 				A34018701D06FC20001D49FE /* ham-menu-button.png */,
 				A34018711D06FC20001D49FE /* ham-menu-button@2x.png */,
 				A31960931D0333EA00BE6237 /* directions_image.png */,
-				A31960911D032D8A00BE6237 /* home_screen_image.jpg */,
+				A31960911D032D8A00BE6237 /* home_screen_image2.jpg */,
 				A31960841D01FB0700BE6237 /* Contacts.csv */,
 				3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */,
 				A327607D1CE2201F00628B5E /* main.m */,
@@ -250,13 +256,15 @@
 				A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */,
 				A32760891CE2201F00628B5E /* Assets.xcassets in Resources */,
 				3FF5A1D01CE51D40001F99D5 /* (null) in Resources */,
-				A31960921D032D8A00BE6237 /* home_screen_image.jpg in Resources */,
+				A31960921D032D8A00BE6237 /* home_screen_image2.jpg in Resources */,
 				A34018721D06FC20001D49FE /* ham-menu-button.png in Resources */,
 				A31960851D01FB0700BE6237 /* Contacts.csv in Resources */,
+				A34018771D076079001D49FE /* easter_egg_photo.jpg in Resources */,
 				A34018731D06FC20001D49FE /* ham-menu-button@2x.png in Resources */,
 				A31960941D0333EA00BE6237 /* directions_image.png in Resources */,
 				3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */,
 				A32760871CE2201F00628B5E /* Main.storyboard in Resources */,
+				A34018751D075FB0001D49FE /* home_screen_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,7 +46,7 @@ static NSString* SPECIAL_AREA = @"Special Area";
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://15184654539"]];
 }
 - (IBAction)assistantPrincipalEmailClicked:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://dcox@stpius-x.com"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://nramsdill@stpius-x.com"]];
 }
 - (IBAction)officePhoneClicked:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://15184654539"]];

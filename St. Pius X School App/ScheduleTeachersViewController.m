@@ -1,36 +1,34 @@
 //
-//  GradeContactsViewController.m
+//  ScheduleTeachersViewController.m
 //  St. Pius X School App
 //
-//  Created by Chris Bick on 6/3/16.
-//  Copyright © 2016 St. Pius X School. All rights reserved.
+//  Created by App Development Team on 1/20/17.
+//  Copyright © 2017 St. Pius X School. All rights reserved.
 //
 
-#import "GradeContactsViewController.h"
+#import "ScheduleTeachersViewController.h"
 #import "Contact.h"
 
-@interface GradeContactsViewController ()
+@interface ScheduleTeachersViewController ()
 
-@property (nonatomic, strong) NSMutableArray* contactsForGrade;
-
+@property (nonatomic, strong) NSMutableArray* teacherArray;
 @end
 
-@implementation GradeContactsViewController
+@implementation ScheduleTeachersViewController
+@synthesize teacherArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = self.selectedGrade;
+    teacherArray = [NSMutableArray array];
     
-    self.contactsForGrade = [NSMutableArray array];
-                     
     NSBundle* myBundle = [NSBundle mainBundle];
     NSString* filePath = [myBundle pathForResource:@"Contacts" ofType:@"csv"];
     NSError* error = nil;
     NSString* contactsStr = [NSString stringWithContentsOfFile:filePath
-                                                  encoding:NSUTF8StringEncoding
-                                                     error:&error];
-    NSArray<NSString *>* contactsArray = [contactsStr componentsSeparatedByString:@"\r"];    
+                                                      encoding:NSUTF8StringEncoding
+                                                         error:&error];
+    NSArray<NSString *>* contactsArray = [contactsStr componentsSeparatedByString:@"\r"];
     for (NSString* contactLine in contactsArray) {
         NSArray<NSString *>* contactPartsArray = [contactLine componentsSeparatedByString:@","];
         
@@ -39,13 +37,17 @@
             contact.grade = contactPartsArray[0];
             contact.name = contactPartsArray[1];
             contact.email = contactPartsArray[2];
-        
+            
             if ([contact.grade containsString:self.selectedGrade])
-                [self.contactsForGrade addObject:contact];
-        
+                [teacherArray addObject:contact];
+            
         }
     }
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
     
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -60,25 +62,18 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.contactsForGrade.count;
+    return teacherArray.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ContactCell" forIndexPath:indexPath];
-    
-    Contact* contact = self.contactsForGrade[indexPath.row];
 
-    cell.textLabel.text = contact.name;
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeacherCell" forIndexPath:indexPath];
+    
+    cell.textLabel.text = [teacherArray[indexPath.row] name];
     
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Contact* contact = self.contactsForGrade[indexPath.row];
-    
-    NSString* emailUrl = [NSString stringWithFormat:@"mailto://%@", contact.email];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:emailUrl]];
-}
 
 /*
 // Override to support conditional editing of the table view.

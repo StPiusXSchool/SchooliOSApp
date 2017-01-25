@@ -13,6 +13,8 @@
 		27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4061CE50CDD00AD9C51 /* MainContactsViewController.m */; };
 		27A5B40D1CE50CDD00AD9C51 /* VotingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */; };
 		27A5B40F1CEBB2EB00AD9C51 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */; };
+		27EC30641E32ACC800969FB6 /* ScheduleTeachersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC30631E32ACC800969FB6 /* ScheduleTeachersViewController.m */; };
+		27EC30671E32B27E00969FB6 /* MainScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC30661E32B27E00969FB6 /* MainScheduleViewController.m */; };
 		3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */; };
 		3FF5A1D01CE51D40001F99D5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		A31960851D01FB0700BE6237 /* Contacts.csv in Resources */ = {isa = PBXBuildFile; fileRef = A31960841D01FB0700BE6237 /* Contacts.csv */; };
@@ -51,6 +53,10 @@
 		27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VotingViewController.h; sourceTree = "<group>"; };
 		27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VotingViewController.m; sourceTree = "<group>"; };
 		27A5B40E1CEBB2EB00AD9C51 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		27EC30621E32ACC800969FB6 /* ScheduleTeachersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTeachersViewController.h; sourceTree = "<group>"; };
+		27EC30631E32ACC800969FB6 /* ScheduleTeachersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTeachersViewController.m; sourceTree = "<group>"; };
+		27EC30651E32B27E00969FB6 /* MainScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScheduleViewController.h; sourceTree = "<group>"; };
+		27EC30661E32B27E00969FB6 /* MainScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScheduleViewController.m; sourceTree = "<group>"; };
 		3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0595.JPG; sourceTree = "<group>"; };
 		A31960841D01FB0700BE6237 /* Contacts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contacts.csv; sourceTree = "<group>"; };
 		A31960891D02001B00BE6237 /* GradeContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeContactsViewController.h; sourceTree = "<group>"; };
@@ -145,10 +151,14 @@
 				A319608A1D02001B00BE6237 /* GradeContactsViewController.m */,
 				A319608E1D02072B00BE6237 /* Contact.h */,
 				A319608F1D02072B00BE6237 /* Contact.m */,
-				27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */,
 				27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */,
+				27A5B4071CE50CDD00AD9C51 /* VotingViewController.h */,
 				A319609B1D04EC4C00BE6237 /* VotingResultsViewController.h */,
 				A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */,
+				27EC30651E32B27E00969FB6 /* MainScheduleViewController.h */,
+				27EC30661E32B27E00969FB6 /* MainScheduleViewController.m */,
+				27EC30621E32ACC800969FB6 /* ScheduleTeachersViewController.h */,
+				27EC30631E32ACC800969FB6 /* ScheduleTeachersViewController.m */,
 				A327607F1CE2201F00628B5E /* AppDelegate.h */,
 				A32760801CE2201F00628B5E /* AppDelegate.m */,
 				A340186A1D066A83001D49FE /* LeftSideMenuViewController.h */,
@@ -338,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27EC30641E32ACC800969FB6 /* ScheduleTeachersViewController.m in Sources */,
 				27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */,
 				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,
 				A319609D1D04EC4C00BE6237 /* VotingResultsViewController.m in Sources */,
@@ -345,6 +356,7 @@
 				A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */,
 				A340186C1D066A83001D49FE /* LeftSideMenuViewController.m in Sources */,
 				A340186F1D06F755001D49FE /* EasterEggViewController.m in Sources */,
+				27EC30671E32B27E00969FB6 /* MainScheduleViewController.m in Sources */,
 				27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */,
 				27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */,
 				27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */,

@@ -16,6 +16,7 @@
 		27EC30641E32ACC800969FB6 /* ScheduleTeachersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC30631E32ACC800969FB6 /* ScheduleTeachersViewController.m */; };
 		27EC30671E32B27E00969FB6 /* MainScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC30661E32B27E00969FB6 /* MainScheduleViewController.m */; };
 		3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */; };
+		3F7F60901E43D176000AB70F /* THEScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7F608F1E43D176000AB70F /* THEScheduleViewController.m */; };
 		3FF5A1D01CE51D40001F99D5 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		A31960851D01FB0700BE6237 /* Contacts.csv in Resources */ = {isa = PBXBuildFile; fileRef = A31960841D01FB0700BE6237 /* Contacts.csv */; };
 		A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A319608A1D02001B00BE6237 /* GradeContactsViewController.m */; };
@@ -58,6 +59,8 @@
 		27EC30651E32B27E00969FB6 /* MainScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScheduleViewController.h; sourceTree = "<group>"; };
 		27EC30661E32B27E00969FB6 /* MainScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScheduleViewController.m; sourceTree = "<group>"; };
 		3F65933C1CF79BDC00ED0EFB /* IMG_0595.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0595.JPG; sourceTree = "<group>"; };
+		3F7F608E1E43D176000AB70F /* THEScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THEScheduleViewController.h; sourceTree = "<group>"; };
+		3F7F608F1E43D176000AB70F /* THEScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THEScheduleViewController.m; sourceTree = "<group>"; };
 		A31960841D01FB0700BE6237 /* Contacts.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contacts.csv; sourceTree = "<group>"; };
 		A31960891D02001B00BE6237 /* GradeContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeContactsViewController.h; sourceTree = "<group>"; };
 		A319608A1D02001B00BE6237 /* GradeContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeContactsViewController.m; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				27EC30661E32B27E00969FB6 /* MainScheduleViewController.m */,
 				27EC30621E32ACC800969FB6 /* ScheduleTeachersViewController.h */,
 				27EC30631E32ACC800969FB6 /* ScheduleTeachersViewController.m */,
+				3F7F608E1E43D176000AB70F /* THEScheduleViewController.h */,
+				3F7F608F1E43D176000AB70F /* THEScheduleViewController.m */,
 				A327607F1CE2201F00628B5E /* AppDelegate.h */,
 				A32760801CE2201F00628B5E /* AppDelegate.m */,
 				A340186A1D066A83001D49FE /* LeftSideMenuViewController.h */,
@@ -348,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7F60901E43D176000AB70F /* THEScheduleViewController.m in Sources */,
 				27EC30641E32ACC800969FB6 /* ScheduleTeachersViewController.m in Sources */,
 				27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */,
 				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,

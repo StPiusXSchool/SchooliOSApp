@@ -57,6 +57,9 @@
         case 4:
             vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"TCBYViewController"];
             break;
+        case 5:
+            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ScheduleViewController"];
+            break;
         /*case 4:
             [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
             [[SlideNavigationController sharedInstance] popToRootViewControllerAnimated:YES];

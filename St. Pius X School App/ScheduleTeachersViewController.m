@@ -8,6 +8,7 @@
 
 #import "ScheduleTeachersViewController.h"
 #import "Contact.h"
+#import "THEScheduleViewController.h"
 
 @interface ScheduleTeachersViewController ()
 
@@ -74,7 +75,10 @@
     return cell;
 }
 
-
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    THEScheduleViewController* vc=[self.storyboard instantiateViewControllerWithIdentifier:@"THEScheduleViewController"];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

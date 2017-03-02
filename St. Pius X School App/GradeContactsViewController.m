@@ -33,14 +33,15 @@
     NSArray<NSString *>* contactsArray = [contactsStr componentsSeparatedByString:@"\r"];    
     for (NSString* contactLine in contactsArray) {
         NSArray<NSString *>* contactPartsArray = [contactLine componentsSeparatedByString:@","];
+        if (contactPartsArray.count==3){
+            Contact* contact = [[Contact alloc]init];
+            contact.grade = contactPartsArray[0];
+            contact.name = contactPartsArray[1];
+            contact.email = contactPartsArray[2];
         
-        Contact* contact = [[Contact alloc]init];
-        contact.grade = contactPartsArray[0];
-        contact.name = contactPartsArray[1];
-        contact.email = contactPartsArray[2];
-        
-        if ([contact.grade containsString:self.selectedGrade])
-            [self.contactsForGrade addObject:contact];
+            if ([contact.grade containsString:self.selectedGrade])
+                [self.contactsForGrade addObject:contact];
+        }
         
     }
     

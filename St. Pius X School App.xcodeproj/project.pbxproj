@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2301267F1E32ACC700BA43C5 /* ScheduleTeachersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301267E1E32ACC700BA43C5 /* ScheduleTeachersViewController.m */; };
+		230126821E32B27F00BA43C5 /* MainScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230126811E32B27F00BA43C5 /* MainScheduleViewController.m */; };
+		2301478F1E43D16B00F50DCE /* TheScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2301478E1E43D16B00F50DCE /* TheScheduleViewController.m */; };
+		230147911E4E5FB700F50DCE /* 1-3MrsBaker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147901E4E5FB700F50DCE /* 1-3MrsBaker.jpg */; };
+		230147951E4E60D800F50DCE /* 1-EMrsVennard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147921E4E60D800F50DCE /* 1-EMrsVennard.jpg */; };
+		230147961E4E60D800F50DCE /* 1-WMrsJones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147931E4E60D800F50DCE /* 1-WMrsJones.jpg */; };
+		230147971E4E60D800F50DCE /* 2-3MrsAuClaire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147941E4E60D800F50DCE /* 2-3MrsAuClaire.jpg */; };
+		2301479B1E4E60E500F50DCE /* 2-EMrsDuFore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147981E4E60E500F50DCE /* 2-EMrsDuFore.jpg */; };
+		2301479C1E4E60E500F50DCE /* 2-WMrsHiggins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147991E4E60E500F50DCE /* 2-WMrsHiggins.jpg */; };
+		2301479D1E4E60E500F50DCE /* 3-3MrsMilano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2301479A1E4E60E500F50DCE /* 3-3MrsMilano.jpg */; };
+		230147A11E4E60F000F50DCE /* 3-EMrsWhatley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2301479E1E4E60F000F50DCE /* 3-EMrsWhatley.jpg */; };
+		230147A21E4E60F000F50DCE /* 3-WMsStoddard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2301479F1E4E60F000F50DCE /* 3-WMsStoddard.jpg */; };
+		230147A31E4E60F000F50DCE /* 4-3MsLivingston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147A01E4E60F000F50DCE /* 4-3MsLivingston.jpg */; };
+		230147A71E4E60FA00F50DCE /* 4-EMrsCassala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147A41E4E60FA00F50DCE /* 4-EMrsCassala.jpg */; };
+		230147A81E4E60FA00F50DCE /* 4-WMrsMullen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147A51E4E60FA00F50DCE /* 4-WMrsMullen.jpg */; };
+		230147A91E4E60FA00F50DCE /* 5-3MrLavigne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147A61E4E60FA00F50DCE /* 5-3MrLavigne.jpg */; };
+		230147AC1E4E610200F50DCE /* 5-EMsFuller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147AA1E4E610200F50DCE /* 5-EMsFuller.jpg */; };
+		230147AD1E4E610200F50DCE /* 5-WMrSullivan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147AB1E4E610200F50DCE /* 5-WMrSullivan.jpg */; };
+		230147B01E4E614300F50DCE /* K-1MrsLenart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147AE1E4E614300F50DCE /* K-1MrsLenart.jpg */; };
+		230147B11E4E614300F50DCE /* K-2MrsEdwards.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147AF1E4E614300F50DCE /* K-2MrsEdwards.jpg */; };
+		230147B31E4E615100F50DCE /* K-3MrsSmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B21E4E615100F50DCE /* K-3MrsSmith.jpg */; };
+		230147B81E4E615E00F50DCE /* PreK4AMrsBelles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B41E4E615E00F50DCE /* PreK4AMrsBelles.jpg */; };
+		230147B91E4E615E00F50DCE /* PreK4BMrsCole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B51E4E615E00F50DCE /* PreK4BMrsCole.jpg */; };
+		230147BA1E4E615E00F50DCE /* PreK5MrsBick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B61E4E615E00F50DCE /* PreK5MrsBick.jpg */; };
+		230147BB1E4E615E00F50DCE /* PreK123MrsONeill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */; };
 		27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */; };
 		27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */; };
 		27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */; };
@@ -40,6 +65,34 @@
 
 /* Begin PBXFileReference section */
 		21C31B9E03D90FD91893455E /* libPods-St. Pius X School App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-St. Pius X School App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2301267D1E32ACC700BA43C5 /* ScheduleTeachersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTeachersViewController.h; sourceTree = "<group>"; };
+		2301267E1E32ACC700BA43C5 /* ScheduleTeachersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTeachersViewController.m; sourceTree = "<group>"; };
+		230126801E32B27F00BA43C5 /* MainScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScheduleViewController.h; sourceTree = "<group>"; };
+		230126811E32B27F00BA43C5 /* MainScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScheduleViewController.m; sourceTree = "<group>"; };
+		2301478D1E43D16B00F50DCE /* TheScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheScheduleViewController.h; sourceTree = "<group>"; };
+		2301478E1E43D16B00F50DCE /* TheScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheScheduleViewController.m; sourceTree = "<group>"; };
+		230147901E4E5FB700F50DCE /* 1-3MrsBaker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-3MrsBaker.jpg"; sourceTree = "<group>"; };
+		230147921E4E60D800F50DCE /* 1-EMrsVennard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-EMrsVennard.jpg"; sourceTree = "<group>"; };
+		230147931E4E60D800F50DCE /* 1-WMrsJones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-WMrsJones.jpg"; sourceTree = "<group>"; };
+		230147941E4E60D800F50DCE /* 2-3MrsAuClaire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-3MrsAuClaire.jpg"; sourceTree = "<group>"; };
+		230147981E4E60E500F50DCE /* 2-EMrsDuFore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-EMrsDuFore.jpg"; sourceTree = "<group>"; };
+		230147991E4E60E500F50DCE /* 2-WMrsHiggins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-WMrsHiggins.jpg"; sourceTree = "<group>"; };
+		2301479A1E4E60E500F50DCE /* 3-3MrsMilano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-3MrsMilano.jpg"; sourceTree = "<group>"; };
+		2301479E1E4E60F000F50DCE /* 3-EMrsWhatley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-EMrsWhatley.jpg"; sourceTree = "<group>"; };
+		2301479F1E4E60F000F50DCE /* 3-WMsStoddard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-WMsStoddard.jpg"; sourceTree = "<group>"; };
+		230147A01E4E60F000F50DCE /* 4-3MsLivingston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-3MsLivingston.jpg"; sourceTree = "<group>"; };
+		230147A41E4E60FA00F50DCE /* 4-EMrsCassala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-EMrsCassala.jpg"; sourceTree = "<group>"; };
+		230147A51E4E60FA00F50DCE /* 4-WMrsMullen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-WMrsMullen.jpg"; sourceTree = "<group>"; };
+		230147A61E4E60FA00F50DCE /* 5-3MrLavigne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-3MrLavigne.jpg"; sourceTree = "<group>"; };
+		230147AA1E4E610200F50DCE /* 5-EMsFuller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-EMsFuller.jpg"; sourceTree = "<group>"; };
+		230147AB1E4E610200F50DCE /* 5-WMrSullivan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-WMrSullivan.jpg"; sourceTree = "<group>"; };
+		230147AE1E4E614300F50DCE /* K-1MrsLenart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K-1MrsLenart.jpg"; sourceTree = "<group>"; };
+		230147AF1E4E614300F50DCE /* K-2MrsEdwards.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K-2MrsEdwards.jpg"; sourceTree = "<group>"; };
+		230147B21E4E615100F50DCE /* K-3MrsSmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K-3MrsSmith.jpg"; sourceTree = "<group>"; };
+		230147B41E4E615E00F50DCE /* PreK4AMrsBelles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK4AMrsBelles.jpg; sourceTree = "<group>"; };
+		230147B51E4E615E00F50DCE /* PreK4BMrsCole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK4BMrsCole.jpg; sourceTree = "<group>"; };
+		230147B61E4E615E00F50DCE /* PreK5MrsBick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK5MrsBick.jpg; sourceTree = "<group>"; };
+		230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK123MrsONeill.jpg; sourceTree = "<group>"; };
 		27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
@@ -149,6 +202,12 @@
 				27A5B4081CE50CDD00AD9C51 /* VotingViewController.m */,
 				A319609B1D04EC4C00BE6237 /* VotingResultsViewController.h */,
 				A319609C1D04EC4C00BE6237 /* VotingResultsViewController.m */,
+				230126801E32B27F00BA43C5 /* MainScheduleViewController.h */,
+				230126811E32B27F00BA43C5 /* MainScheduleViewController.m */,
+				2301267D1E32ACC700BA43C5 /* ScheduleTeachersViewController.h */,
+				2301267E1E32ACC700BA43C5 /* ScheduleTeachersViewController.m */,
+				2301478D1E43D16B00F50DCE /* TheScheduleViewController.h */,
+				2301478E1E43D16B00F50DCE /* TheScheduleViewController.m */,
 				A327607F1CE2201F00628B5E /* AppDelegate.h */,
 				A32760801CE2201F00628B5E /* AppDelegate.m */,
 				A340186A1D066A83001D49FE /* LeftSideMenuViewController.h */,
@@ -169,6 +228,28 @@
 		A327607C1CE2201F00628B5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				230147B41E4E615E00F50DCE /* PreK4AMrsBelles.jpg */,
+				230147B51E4E615E00F50DCE /* PreK4BMrsCole.jpg */,
+				230147B61E4E615E00F50DCE /* PreK5MrsBick.jpg */,
+				230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */,
+				230147AE1E4E614300F50DCE /* K-1MrsLenart.jpg */,
+				230147AF1E4E614300F50DCE /* K-2MrsEdwards.jpg */,
+				230147B21E4E615100F50DCE /* K-3MrsSmith.jpg */,
+				230147901E4E5FB700F50DCE /* 1-3MrsBaker.jpg */,
+				230147921E4E60D800F50DCE /* 1-EMrsVennard.jpg */,
+				230147931E4E60D800F50DCE /* 1-WMrsJones.jpg */,
+				230147941E4E60D800F50DCE /* 2-3MrsAuClaire.jpg */,
+				230147981E4E60E500F50DCE /* 2-EMrsDuFore.jpg */,
+				230147991E4E60E500F50DCE /* 2-WMrsHiggins.jpg */,
+				2301479A1E4E60E500F50DCE /* 3-3MrsMilano.jpg */,
+				2301479E1E4E60F000F50DCE /* 3-EMrsWhatley.jpg */,
+				2301479F1E4E60F000F50DCE /* 3-WMsStoddard.jpg */,
+				230147A01E4E60F000F50DCE /* 4-3MsLivingston.jpg */,
+				230147A41E4E60FA00F50DCE /* 4-EMrsCassala.jpg */,
+				230147A51E4E60FA00F50DCE /* 4-WMrsMullen.jpg */,
+				230147A61E4E60FA00F50DCE /* 5-3MrLavigne.jpg */,
+				230147AA1E4E610200F50DCE /* 5-EMsFuller.jpg */,
+				230147AB1E4E610200F50DCE /* 5-WMrSullivan.jpg */,
 				A34018761D076079001D49FE /* easter_egg_photo.jpg */,
 				A34018741D075FB0001D49FE /* home_screen_image.jpg */,
 				A34018701D06FC20001D49FE /* ham-menu-button.png */,
@@ -221,7 +302,7 @@
 		A32760711CE2201F00628B5E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "St. Pius X School";
 				TargetAttributes = {
 					A32760781CE2201F00628B5E = {
@@ -256,15 +337,37 @@
 				A327608C1CE2201F00628B5E /* LaunchScreen.storyboard in Resources */,
 				A32760891CE2201F00628B5E /* Assets.xcassets in Resources */,
 				3FF5A1D01CE51D40001F99D5 /* (null) in Resources */,
+				230147BA1E4E615E00F50DCE /* PreK5MrsBick.jpg in Resources */,
 				A31960921D032D8A00BE6237 /* home_screen_image2.jpg in Resources */,
+				2301479D1E4E60E500F50DCE /* 3-3MrsMilano.jpg in Resources */,
 				A34018721D06FC20001D49FE /* ham-menu-button.png in Resources */,
 				A31960851D01FB0700BE6237 /* Contacts.csv in Resources */,
+				230147B31E4E615100F50DCE /* K-3MrsSmith.jpg in Resources */,
+				2301479C1E4E60E500F50DCE /* 2-WMrsHiggins.jpg in Resources */,
 				A34018771D076079001D49FE /* easter_egg_photo.jpg in Resources */,
+				230147B01E4E614300F50DCE /* K-1MrsLenart.jpg in Resources */,
+				230147BB1E4E615E00F50DCE /* PreK123MrsONeill.jpg in Resources */,
+				230147971E4E60D800F50DCE /* 2-3MrsAuClaire.jpg in Resources */,
+				230147A31E4E60F000F50DCE /* 4-3MsLivingston.jpg in Resources */,
 				A34018731D06FC20001D49FE /* ham-menu-button@2x.png in Resources */,
+				230147911E4E5FB700F50DCE /* 1-3MrsBaker.jpg in Resources */,
 				A31960941D0333EA00BE6237 /* directions_image.png in Resources */,
+				230147961E4E60D800F50DCE /* 1-WMrsJones.jpg in Resources */,
+				230147AC1E4E610200F50DCE /* 5-EMsFuller.jpg in Resources */,
 				3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */,
+				230147B91E4E615E00F50DCE /* PreK4BMrsCole.jpg in Resources */,
+				230147A91E4E60FA00F50DCE /* 5-3MrLavigne.jpg in Resources */,
+				230147A21E4E60F000F50DCE /* 3-WMsStoddard.jpg in Resources */,
+				230147A11E4E60F000F50DCE /* 3-EMrsWhatley.jpg in Resources */,
+				230147B11E4E614300F50DCE /* K-2MrsEdwards.jpg in Resources */,
+				230147B81E4E615E00F50DCE /* PreK4AMrsBelles.jpg in Resources */,
+				230147A71E4E60FA00F50DCE /* 4-EMrsCassala.jpg in Resources */,
+				230147AD1E4E610200F50DCE /* 5-WMrSullivan.jpg in Resources */,
+				230147951E4E60D800F50DCE /* 1-EMrsVennard.jpg in Resources */,
+				230147A81E4E60FA00F50DCE /* 4-WMrsMullen.jpg in Resources */,
 				A32760871CE2201F00628B5E /* Main.storyboard in Resources */,
 				A34018751D075FB0001D49FE /* home_screen_image.jpg in Resources */,
+				2301479B1E4E60E500F50DCE /* 2-EMrsDuFore.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,13 +441,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2301267F1E32ACC700BA43C5 /* ScheduleTeachersViewController.m in Sources */,
 				27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */,
 				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,
+				2301478F1E43D16B00F50DCE /* TheScheduleViewController.m in Sources */,
 				A319609D1D04EC4C00BE6237 /* VotingResultsViewController.m in Sources */,
 				A31960901D02072B00BE6237 /* Contact.m in Sources */,
 				A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */,
 				A340186C1D066A83001D49FE /* LeftSideMenuViewController.m in Sources */,
 				A340186F1D06F755001D49FE /* EasterEggViewController.m in Sources */,
+				230126821E32B27F00BA43C5 /* MainScheduleViewController.m in Sources */,
 				27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */,
 				27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */,
 				27A5B40C1CE50CDD00AD9C51 /* MainContactsViewController.m in Sources */,
@@ -390,8 +496,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -434,8 +542,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

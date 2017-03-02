@@ -1,23 +1,50 @@
 //
-//  LeftSideMenuViewController.m
+//  ScheduleTeachersViewController.m
 //  St. Pius X School App
 //
-//  Created by Chris Bick on 6/6/16.
-//  Copyright © 2016 St. Pius X School. All rights reserved.
+//  Created by App Development Team on 1/20/17.
+//  Copyright © 2017 St. Pius X School. All rights reserved.
 //
 
-#import "LeftSideMenuViewController.h"
-#import "SlideNavigationController.h"
+#import "ScheduleTeachersViewController.h"
+#import "Contact.h"
+#import "TheScheduleViewController.h"
+@interface ScheduleTeachersViewController ()
 
-@interface LeftSideMenuViewController ()
 
+@property (nonatomic, strong) NSMutableArray* teacherArray;
 @end
 
-@implementation LeftSideMenuViewController
+@implementation ScheduleTeachersViewController
+@synthesize teacherArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    teacherArray = [NSMutableArray array];
+    
+    NSBundle* myBundle = [NSBundle mainBundle];
+    NSString* filePath = [myBundle pathForResource:@"Contacts" ofType:@"csv"];
+    NSError* error = nil;
+    NSString* contactsStr = [NSString stringWithContentsOfFile:filePath
+                                                      encoding:NSUTF8StringEncoding
+                                                         error:&error];
+    NSArray<NSString *>* contactsArray = [contactsStr componentsSeparatedByString:@"\r"];
+    for (NSString* contactLine in contactsArray) {
+        NSArray<NSString *>* contactPartsArray = [contactLine componentsSeparatedByString:@","];
+        if (contactPartsArray.count==4){
+            Contact* contact = [[Contact alloc]init];
+            contact.grade = contactPartsArray[0];
+            contact.name = contactPartsArray[1];
+            contact.email = contactPartsArray[2];
+            contact.scheduleFileName = contactPartsArray[3];
+            
+            if ([contact.grade containsString:self.selectedGrade])
+                [teacherArray addObject:contact];
+        }
+        
+    }
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -32,54 +59,28 @@
 
 #pragma mark - Table view data source
 
--(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
-                                                             bundle: nil];
-    
-    UIViewController *vc ;
-    
-    switch (indexPath.row)
-    {
-        case 0:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"HomeViewController"];
-            break;
-        case 1:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"CalendarViewController"];
-            break;
-        case 2:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ContactsViewController"];
-            break;
-        case 3:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"DirectionsViewController"];
-            break;
-        case 4:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"TCBYViewController"];
-            break;
-        case 5:
-            vc = [mainStoryboard instantiateViewControllerWithIdentifier: @"ScheduleViewController"];
-            break;
-            
-        /*case 4:
-            [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
-            [[SlideNavigationController sharedInstance] popToRootViewControllerAnimated:YES];
-            return;
-            break;*/
-    }
-    
-    [[SlideNavigationController sharedInstance] popToRootAndSwitchToViewController:vc
-                                                             withSlideOutAnimation:YES
-                                                                     andCompletion:nil];
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
 }
-/*
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return teacherArray.count;
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TeacherCell" forIndexPath:indexPath];
     
-    // Configure the cell...
-    
+    cell.textLabel.text = [teacherArray[indexPath.row] name];
     return cell;
 }
-*/
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    TheScheduleViewController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TheScheduleViewController"];
+    Contact* contact = teacherArray[indexPath.row];
+    vc.pathToSchedule = contact.scheduleFileName;
+    [self.navigationController pushViewController:vc animated:YES];
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -8,16 +8,7 @@
 
 #import "MainContactsViewController.h"
 #import "GradeContactsViewController.h"
-
-static NSString* PRE_K = @"PreK";
-static NSString* KINDERGARTEN = @"Kindergarten";
-static NSString* FIRST_GRADE = @"1st";
-static NSString* SECOND_GRADE = @"2nd";
-static NSString* THIRD_GRADE = @"3rd";
-static NSString* FOURTH_GRADE = @"4th";
-static NSString* FIFTH_GRADE = @"5th";
-static NSString* SIXTH_SEVENTH_EIGHTH_GRADE = @"6th/7th/8th";
-static NSString* SPECIAL_AREA = @"Special Area";
+#import "Contact.h"
 
 
 @interface MainContactsViewController ()

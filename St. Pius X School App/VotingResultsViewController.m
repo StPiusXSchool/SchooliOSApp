@@ -62,7 +62,7 @@ CGFloat const kJBBarChartViewControllerChartPadding = 10.0f;
     [nowComponents setWeekday:2]; //Monday
     [nowComponents setWeekOfMonth: [nowComponents weekOfMonth]]; //This week
     [nowComponents setHour:6]; //6a.m.
-    [nowComponents setMinute:0];
+    [nowComponents setMinute:0];//Brandon was here...
     [nowComponents setSecond:0];
     
     NSDate *mondayOfWeek = [gregorian dateFromComponents:nowComponents];

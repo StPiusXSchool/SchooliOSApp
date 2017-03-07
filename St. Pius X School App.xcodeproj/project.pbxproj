@@ -32,6 +32,7 @@
 		230147B91E4E615E00F50DCE /* PreK4BMrsCole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B51E4E615E00F50DCE /* PreK4BMrsCole.jpg */; };
 		230147BA1E4E615E00F50DCE /* PreK5MrsBick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B61E4E615E00F50DCE /* PreK5MrsBick.jpg */; };
 		230147BB1E4E615E00F50DCE /* PreK123MrsONeill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */; };
+		2393A7581E68BEFE00C69192 /* ScheduleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393A7571E68BEFE00C69192 /* ScheduleImageViewController.m */; };
 		27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */; };
 		27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */; };
 		27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */; };
@@ -93,6 +94,8 @@
 		230147B51E4E615E00F50DCE /* PreK4BMrsCole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK4BMrsCole.jpg; sourceTree = "<group>"; };
 		230147B61E4E615E00F50DCE /* PreK5MrsBick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK5MrsBick.jpg; sourceTree = "<group>"; };
 		230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK123MrsONeill.jpg; sourceTree = "<group>"; };
+		2393A7561E68BEFE00C69192 /* ScheduleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleImageViewController.h; sourceTree = "<group>"; };
+		2393A7571E68BEFE00C69192 /* ScheduleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleImageViewController.m; sourceTree = "<group>"; };
 		27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				2301267E1E32ACC700BA43C5 /* ScheduleTeachersViewController.m */,
 				2301478D1E43D16B00F50DCE /* TheScheduleViewController.h */,
 				2301478E1E43D16B00F50DCE /* TheScheduleViewController.m */,
+				2393A7561E68BEFE00C69192 /* ScheduleImageViewController.h */,
+				2393A7571E68BEFE00C69192 /* ScheduleImageViewController.m */,
 				A327607F1CE2201F00628B5E /* AppDelegate.h */,
 				A32760801CE2201F00628B5E /* AppDelegate.m */,
 				A340186A1D066A83001D49FE /* LeftSideMenuViewController.h */,
@@ -446,6 +451,7 @@
 				A32760811CE2201F00628B5E /* AppDelegate.m in Sources */,
 				2301478F1E43D16B00F50DCE /* TheScheduleViewController.m in Sources */,
 				A319609D1D04EC4C00BE6237 /* VotingResultsViewController.m in Sources */,
+				2393A7581E68BEFE00C69192 /* ScheduleImageViewController.m in Sources */,
 				A31960901D02072B00BE6237 /* Contact.m in Sources */,
 				A319608B1D02001B00BE6237 /* GradeContactsViewController.m in Sources */,
 				A340186C1D066A83001D49FE /* LeftSideMenuViewController.m in Sources */,

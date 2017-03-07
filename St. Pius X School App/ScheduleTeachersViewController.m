@@ -76,7 +76,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    TheScheduleViewController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TheScheduleViewController"];
+    THEScheduleViewController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"TheScheduleViewController"];
     Contact* contact = teacherArray[indexPath.row];
     vc.pathToSchedule = contact.scheduleFileName;
     [self.navigationController pushViewController:vc animated:YES];

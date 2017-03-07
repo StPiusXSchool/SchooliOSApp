@@ -33,7 +33,7 @@
     NSArray<NSString *>* contactsArray = [contactsStr componentsSeparatedByString:@"\r"];    
     for (NSString* contactLine in contactsArray) {
         NSArray<NSString *>* contactPartsArray = [contactLine componentsSeparatedByString:@","];
-        if (contactPartsArray.count==3){
+        if (contactPartsArray.count==4){
             Contact* contact = [[Contact alloc]init];
             contact.grade = contactPartsArray[0];
             contact.name = contactPartsArray[1];

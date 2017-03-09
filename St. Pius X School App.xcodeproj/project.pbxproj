@@ -33,6 +33,8 @@
 		230147BA1E4E615E00F50DCE /* PreK5MrsBick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B61E4E615E00F50DCE /* PreK5MrsBick.jpg */; };
 		230147BB1E4E615E00F50DCE /* PreK123MrsONeill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */; };
 		2393A7581E68BEFE00C69192 /* ScheduleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2393A7571E68BEFE00C69192 /* ScheduleImageViewController.m */; };
+		2393A75A1E71F0E200C69192 /* UppeWing033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2393A7591E71F0E200C69192 /* UppeWing033.jpg */; };
+		2393A75C1E71F42F00C69192 /* easter_egg_photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2393A75B1E71F42F00C69192 /* easter_egg_photo2.jpg */; };
 		27A5B4091CE50CDD00AD9C51 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */; };
 		27A5B40A1CE50CDD00AD9C51 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4021CE50CDD00AD9C51 /* EventsTableViewController.m */; };
 		27A5B40B1CE50CDD00AD9C51 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A5B4041CE50CDD00AD9C51 /* HomeViewController.m */; };
@@ -96,6 +98,8 @@
 		230147B71E4E615E00F50DCE /* PreK123MrsONeill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PreK123MrsONeill.jpg; sourceTree = "<group>"; };
 		2393A7561E68BEFE00C69192 /* ScheduleImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleImageViewController.h; sourceTree = "<group>"; };
 		2393A7571E68BEFE00C69192 /* ScheduleImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleImageViewController.m; sourceTree = "<group>"; };
+		2393A7591E71F0E200C69192 /* UppeWing033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UppeWing033.jpg; sourceTree = "<group>"; };
+		2393A75B1E71F42F00C69192 /* easter_egg_photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = easter_egg_photo2.jpg; sourceTree = "<group>"; };
 		27A5B3FF1CE50CDD00AD9C51 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		27A5B4001CE50CDD00AD9C51 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		27A5B4011CE50CDD00AD9C51 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsTableViewController.h; sourceTree = "<group>"; };
@@ -255,7 +259,9 @@
 				230147A61E4E60FA00F50DCE /* 5-3MrLavigne.jpg */,
 				230147AA1E4E610200F50DCE /* 5-EMsFuller.jpg */,
 				230147AB1E4E610200F50DCE /* 5-WMrSullivan.jpg */,
+				2393A7591E71F0E200C69192 /* UppeWing033.jpg */,
 				A34018761D076079001D49FE /* easter_egg_photo.jpg */,
+				2393A75B1E71F42F00C69192 /* easter_egg_photo2.jpg */,
 				A34018741D075FB0001D49FE /* home_screen_image.jpg */,
 				A34018701D06FC20001D49FE /* ham-menu-button.png */,
 				A34018711D06FC20001D49FE /* ham-menu-button@2x.png */,
@@ -361,6 +367,7 @@
 				230147AC1E4E610200F50DCE /* 5-EMsFuller.jpg in Resources */,
 				3F65933D1CF79BDC00ED0EFB /* IMG_0595.JPG in Resources */,
 				230147B91E4E615E00F50DCE /* PreK4BMrsCole.jpg in Resources */,
+				2393A75C1E71F42F00C69192 /* easter_egg_photo2.jpg in Resources */,
 				230147A91E4E60FA00F50DCE /* 5-3MrLavigne.jpg in Resources */,
 				230147A21E4E60F000F50DCE /* 3-WMsStoddard.jpg in Resources */,
 				230147A11E4E60F000F50DCE /* 3-EMrsWhatley.jpg in Resources */,
@@ -371,6 +378,7 @@
 				230147951E4E60D800F50DCE /* 1-EMrsVennard.jpg in Resources */,
 				230147A81E4E60FA00F50DCE /* 4-WMrsMullen.jpg in Resources */,
 				A32760871CE2201F00628B5E /* Main.storyboard in Resources */,
+				2393A75A1E71F0E200C69192 /* UppeWing033.jpg in Resources */,
 				A34018751D075FB0001D49FE /* home_screen_image.jpg in Resources */,
 				2301479B1E4E60E500F50DCE /* 2-EMrsDuFore.jpg in Resources */,
 			);

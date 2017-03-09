@@ -168,7 +168,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PD5-0S-Iqs">
-                                <rect key="frame" x="20" y="507" width="135" height="62"/>
+                                <rect key="frame" x="17" y="507" width="135" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.043137254899999998" green="0.043137254899999998" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Schedules">
@@ -1325,6 +1325,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.043137254899999998" green="0.043137254899999998" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TeacherCell" textLabel="jv6-vK-ZuB" style="IBUITableViewCellStyleDefault" id="NYJ-Tt-2Uj">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -1525,7 +1526,7 @@
                                     <action selector="sixthEigthAction:" destination="Pcg-rm-dgy" eventType="touchUpInside" id="nI1-lp-HaU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRY-t9-eHC">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRY-t9-eHC">
                                 <rect key="frame" x="224" y="442" width="135" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.043137254899999998" green="0.043137254899999998" blue="0.3921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1583,14 +1584,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="easter_egg_photo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FPg-xr-al9">
-                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="easter_egg_photo2.jpg" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FPg-xr-al9">
+                                <rect key="frame" x="0.0" y="64" width="375" height="536"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="FPg-xr-al9" secondAttribute="trailing" id="4am-W8-mMC"/>
-                            <constraint firstItem="FPg-xr-al9" firstAttribute="bottom" secondItem="ppj-0a-k7i" secondAttribute="top" id="7e3-AQ-xCZ"/>
+                            <constraint firstItem="FPg-xr-al9" firstAttribute="bottom" secondItem="ppj-0a-k7i" secondAttribute="top" constant="-67" id="7e3-AQ-xCZ"/>
                             <constraint firstItem="FPg-xr-al9" firstAttribute="leading" secondItem="3ed-XG-QkT" secondAttribute="leading" id="Zrw-Zp-2xg"/>
                             <constraint firstItem="FPg-xr-al9" firstAttribute="top" secondItem="kTW-9A-ahW" secondAttribute="bottom" id="jxR-Jq-tC2"/>
                         </constraints>
@@ -2292,19 +2293,19 @@
     <resources>
         <image name="1-3MrsBaker.jpg" width="2550" height="3300"/>
         <image name="directions_image.png" width="97" height="99"/>
-        <image name="easter_egg_photo.jpg" width="4032" height="3024"/>
+        <image name="easter_egg_photo2.jpg" width="4032" height="3024"/>
         <image name="home_screen_image.jpg" width="4032" height="2500"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Sea-VZ-32O"/>
-        <segue reference="QIu-h7-2nU"/>
         <segue reference="DJX-vJ-W0g"/>
         <segue reference="Ocf-Ia-hGM"/>
-        <segue reference="Mec-LX-WlE"/>
         <segue reference="guR-UU-xWu"/>
+        <segue reference="Mec-LX-WlE"/>
+        <segue reference="7S4-TP-v1v"/>
         <segue reference="iBQ-NI-FLT"/>
         <segue reference="B7S-kz-c9F"/>
-        <segue reference="Yow-g6-OcZ"/>
+        <segue reference="tbb-8f-B1R"/>
         <segue reference="dfl-Ab-0YJ"/>
     </inferredMetricsTieBreakers>
 </document>
